@@ -1,5 +1,18 @@
 [
   {
+    "title": "Vigilance",
+    "authors": "Amaya, S., & Murray, S.",
+    "venue": "Philosophy and Phenomenological Research",
+    "year": 2026,
+    "yearLabel": "in press",
+    "areas": [
+      "philosophy"
+    ],
+    "pdf": "#",
+    "link": "#",
+    "kind": "article"
+  },
+  {
     "title": "Mental control and effort differ across different kinds of mental action",
     "authors": "Krasich, K., Murray, S., Ghelfi, A., De Brigard, F., & Shepherd, J.",
     "venue": "Consciousness and Cognition",
@@ -53,6 +66,19 @@
     "venue": "Journal of Experimental Psychology: General",
     "year": 2025,
     "areas": [
+      "psychology"
+    ],
+    "pdf": "#",
+    "link": "#",
+    "kind": "article"
+  },
+  {
+    "title": "Vigilance and mind wandering",
+    "authors": "Murray, S.",
+    "venue": "Mind \\& Language",
+    "year": 2025,
+    "areas": [
+      "philosophy",
       "psychology"
     ],
     "pdf": "#",
@@ -144,19 +170,6 @@
     "kind": "article"
   },
   {
-    "title": "Vigilance and mind wandering",
-    "authors": "Murray, S.",
-    "venue": "Mind \\& Language",
-    "year": 2024,
-    "areas": [
-      "philosophy",
-      "psychology"
-    ],
-    "pdf": "#",
-    "link": "#",
-    "kind": "article"
-  },
-  {
     "title": "The nature and norms of vigilance",
     "authors": "Murray, S.",
     "venue": "American Philosophical Quarterly",
@@ -223,6 +236,18 @@
     "year": 2024,
     "areas": [
       "psychology"
+    ],
+    "pdf": "#",
+    "link": "#",
+    "kind": "article"
+  },
+  {
+    "title": "The Catch-22 of Forgetfulness: Responsibility for Mental Mistakes",
+    "authors": "Irving, Z., Murray, S., Glasser, A., & Krasich, K.",
+    "venue": "Australasian Journal of Philosophy",
+    "year": 2024,
+    "areas": [
+      "philosophy"
     ],
     "pdf": "#",
     "link": "#",
@@ -377,18 +402,6 @@
     "pdf": "#",
     "link": "#",
     "kind": "review"
-  },
-  {
-    "title": "The Catch-22 of Forgetfulness: Responsibility for Mental Mistakes",
-    "authors": "Irving, Z., Murray, S., Glasser, A., & Krasich, K.",
-    "venue": "Australasian Journal of Philosophy",
-    "year": 2022,
-    "areas": [
-      "philosophy"
-    ],
-    "pdf": "#",
-    "link": "#",
-    "kind": "article"
   },
   {
     "title": "Mental control and attributions of blame for negligent wrongdoing",
