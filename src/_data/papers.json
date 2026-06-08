@@ -1,56 +1,723 @@
 [
   {
-    "title": "Placeholder paper on moral responsibility attribution",
-    "authors": "Murray, S., & Coauthor, A.",
-    "venue": "Journal Name",
+    "title": "Mental control and effort differ across different kinds of mental action",
+    "authors": "Krasich, K., Murray, S., Ghelfi, A., De Brigard, F., & Shepherd, J.",
+    "venue": "Consciousness and Cognition",
+    "year": 2026,
+    "areas": [
+      "psychology"
+    ],
+    "pdf": "#",
+    "link": "#",
+    "kind": "article"
+  },
+  {
+    "title": "Memories of forgiven wrongs: the role of interpersonal closeness and severity when remembering forgiven transgressions",
+    "authors": "Fernandez-Miranda, G., Faul, L., Murray, S., Amaya, S., & De Brigard, F.",
+    "venue": "Memory",
+    "year": 2026,
+    "areas": [
+      "psychology"
+    ],
+    "pdf": "#",
+    "link": "#",
+    "kind": "article"
+  },
+  {
+    "title": "Varieties of negligence",
+    "authors": "Murray, S., Guzy, D., & Amaya, S.",
+    "venue": "Personality and Social Psychology Bulletin",
+    "year": 2026,
+    "areas": [
+      "psychology"
+    ],
+    "pdf": "#",
+    "link": "#",
+    "kind": "article"
+  },
+  {
+    "title": "Validation of the Moral Foundation Vignettes in Latin America",
+    "authors": "Jimenez-Leal, W., Carmona, G., Murray, S., & Amaya, S.",
+    "venue": "Collabra: Psychology",
+    "year": 2025,
+    "areas": [
+      "psychology"
+    ],
+    "pdf": "#",
+    "link": "#",
+    "kind": "article"
+  },
+  {
+    "title": "The emotional impact of forgiveness on autobiographical memories of past wrongdoings",
+    "authors": "Fernandez-Miranda, G., Stanley, M., Murray, S., Faul, L., & De Brigard, F.",
+    "venue": "Journal of Experimental Psychology: General",
+    "year": 2025,
+    "areas": [
+      "psychology"
+    ],
+    "pdf": "#",
+    "link": "#",
+    "kind": "article"
+  },
+  {
+    "title": "What are the benefits of mind wandering to creativity?",
+    "authors": "Murray, S., Liang, N., Brosowsky, N., & Seli, P.",
+    "venue": "Psychology of Aesthetics, Creativity, and the Arts",
     "year": 2024,
-    "areas": ["psychology", "philosophy"],
+    "areas": [
+      "psychology"
+    ],
     "pdf": "#",
-    "link": "#"
+    "link": "#",
+    "kind": "article"
   },
   {
-    "title": "Placeholder paper on memory, intention, and forgetting",
+    "title": "Do people understand determinism? The tracking problem for measuring free will beliefs",
+    "authors": "Murray, S., Dykhuis, E., & Nadelhoffer, T.",
+    "venue": "Oxford Studies in Experimental Philosophy",
+    "year": 2024,
+    "areas": [
+      "philosophy"
+    ],
+    "pdf": "#",
+    "link": "#",
+    "kind": "article"
+  },
+  {
+    "title": "Negligence and self-trust",
     "authors": "Murray, S.",
-    "venue": "Journal Name",
+    "venue": "Oxford Studies in Agency and Responsibility",
+    "year": 2024,
+    "areas": [
+      "philosophy"
+    ],
+    "pdf": "#",
+    "link": "#",
+    "kind": "article"
+  },
+  {
+    "title": "Causal Power and Perfection: Descartes' Second A Posteriori Argument for the Existence of God",
+    "authors": "Murray, S.",
+    "venue": "Review of Metaphysics",
+    "year": 2024,
+    "areas": [
+      "philosophy"
+    ],
+    "pdf": "#",
+    "link": "#",
+    "kind": "article"
+  },
+  {
+    "title": "Blame for Hum(e)an beings: The role of character information in judgments of blame",
+    "authors": "Murray, S., O'Neill, K., Bridges, J., Sytsma, J., & Irving, Z.",
+    "venue": "Social Psychological and Personality Science",
+    "year": 2024,
+    "areas": [
+      "psychology"
+    ],
+    "pdf": "#",
+    "link": "#",
+    "kind": "article"
+  },
+  {
+    "title": "A Cross-Cultural Study of Everyday Moral Experiences",
+    "authors": "Murray, S., Jimenez-Leal, W., Amaya, S., & et al.",
+    "venue": "OSF (preprint)",
+    "year": 2024,
+    "areas": [
+      "psychology"
+    ],
+    "pdf": "#",
+    "link": "#",
+    "kind": "article"
+  },
+  {
+    "title": "Loyalty from a personal point of view: A cross-cultural prototype study of loyalty",
+    "authors": "Murray, S., Carmona, G., Vega, L., Jimenez-Leal, W., & Amaya, S.",
+    "venue": "Journal of Experimental Psychology: General",
+    "year": 2024,
+    "areas": [
+      "psychology"
+    ],
+    "pdf": "#",
+    "link": "#",
+    "kind": "article"
+  },
+  {
+    "title": "Vigilance and mind wandering",
+    "authors": "Murray, S.",
+    "venue": "Mind \\& Language",
+    "year": 2024,
+    "areas": [
+      "philosophy",
+      "psychology"
+    ],
+    "pdf": "#",
+    "link": "#",
+    "kind": "article"
+  },
+  {
+    "title": "The nature and norms of vigilance",
+    "authors": "Murray, S.",
+    "venue": "American Philosophical Quarterly",
+    "year": 2024,
+    "areas": [
+      "philosophy"
+    ],
+    "pdf": "#",
+    "link": "#",
+    "kind": "article"
+  },
+  {
+    "title": "Within your rights: Dissociating wrongness and permissibility in moral judgement",
+    "authors": "Murray, S., Jimenez-Leal, W., & Amaya, S.",
+    "venue": "British Journal of Social Psychology",
+    "year": 2024,
+    "areas": [
+      "psychology"
+    ],
+    "pdf": "#",
+    "link": "#",
+    "kind": "article"
+  },
+  {
+    "title": "Commonsense Morality and the Bearable Automaticity of Being",
+    "authors": "Murray, S., & Nadelhoffer, T.",
+    "venue": "Consciousness and Cognition",
+    "year": 2024,
+    "areas": [
+      "psychology"
+    ],
+    "pdf": "#",
+    "link": "#",
+    "kind": "article"
+  },
+  {
+    "title": "The strategic allocation theory of vigilance",
+    "authors": "Murray, S., & Amaya, S.",
+    "venue": "Wiley Interdisciplinary Reviews: Cognitive Science",
+    "year": 2024,
+    "areas": [
+      "psychology"
+    ],
+    "pdf": "#",
+    "link": "#",
+    "kind": "article"
+  },
+  {
+    "title": "Believe in your self-control: Lay theories of self-control and their downstream effects",
+    "authors": "Bermudez, J.P., & Murray, S.",
+    "venue": "Current Opinion in Psychology",
+    "year": 2024,
+    "areas": [
+      "psychology"
+    ],
+    "pdf": "#",
+    "link": "#",
+    "kind": "article"
+  },
+  {
+    "title": "A computational modeling approach to investigating mind wandering-related adjustments to gaze behavior during scene viewing",
+    "authors": "Krasich, K., O'Neill, K., Murray, S., Brockmole, J.R., De Brigard, F., & Nuthmann, A.",
+    "venue": "Cognition",
+    "year": 2024,
+    "areas": [
+      "psychology"
+    ],
+    "pdf": "#",
+    "link": "#",
+    "kind": "article"
+  },
+  {
+    "title": "Intuitions about free will and the failure to comprehend determinism",
+    "authors": "Nadelhoffer, T., Murray, S., & Murry, E.",
+    "venue": "Erkenntnis",
     "year": 2023,
-    "areas": ["psychology"],
+    "areas": [
+      "philosophy",
+      "psychology"
+    ],
     "pdf": "#",
-    "link": "#"
+    "link": "#",
+    "kind": "article"
   },
   {
-    "title": "Placeholder paper on the dynamics of attention over time",
-    "authors": "Murray, S., & Coauthor, B.",
-    "venue": "Journal Name",
+    "title": "What's inside is all that counts? The contours of everyday thinking about self-control",
+    "authors": "Bermudez, J.P., Murray, S., Chartrand, L., & Barbosa, S.",
+    "venue": "Review of Philosophy and Psychology",
+    "year": 2023,
+    "areas": [
+      "philosophy",
+      "psychology"
+    ],
+    "pdf": "#",
+    "link": "#",
+    "kind": "article"
+  },
+  {
+    "title": "Purity is linked to cooperation but not necessarily through self-control",
+    "authors": "Murray, S., Amaya, S., & Jimenez-Leal, W.",
+    "venue": "Behavioral and Brain Sciences",
+    "year": 2023,
+    "areas": [
+      "philosophy",
+      "psychology"
+    ],
+    "pdf": "#",
+    "link": "#",
+    "kind": "article"
+  },
+  {
+    "title": "Moralization and self-control strategy selection",
+    "authors": "Murray, S., Bermudez, J.P., & De Brigard, F.",
+    "venue": "Psychonomic Bulletin \\& Review",
+    "year": 2023,
+    "areas": [
+      "psychology"
+    ],
+    "pdf": "#",
+    "link": "#",
+    "kind": "article"
+  },
+  {
+    "title": "Bringing Self-control into the Future",
+    "authors": "Murray, S., & Henne, P.",
+    "venue": "Advances in experimental philosophy of action",
+    "year": 2023,
+    "areas": [
+      "philosophy"
+    ],
+    "pdf": "#",
+    "link": "#",
+    "kind": "article"
+  },
+  {
+    "title": "Introduction to Advances in Experimental Philosophy of Action",
+    "authors": "Murray, S., & Henne, P.",
+    "venue": "Advances in Experimental Philosophy of Action",
+    "year": 2023,
+    "areas": [
+      "philosophy"
+    ],
+    "pdf": "#",
+    "link": "#",
+    "kind": "article"
+  },
+  {
+    "title": "Advances in experimental philosophy of action",
+    "authors": "Murray, S., & Henne, P.",
+    "venue": "Bloomsbury (edited volume)",
+    "year": 2023,
+    "areas": [
+      "philosophy"
+    ],
+    "pdf": "#",
+    "link": "#",
+    "kind": "article"
+  },
+  {
+    "title": "Not what I expected: Feeling of surprise differentially mediates effect of personal control on attributions of free will and responsibility",
+    "authors": "Murray, S., & Nadelhoffer, T.",
+    "venue": "Review of Philosophy and Psychology",
+    "year": 2023,
+    "areas": [
+      "philosophy",
+      "psychology"
+    ],
+    "pdf": "#",
+    "link": "#",
+    "kind": "article"
+  },
+  {
+    "title": "Can the mind wander intentionally?",
+    "authors": "Murray, S., & Krasich, K.",
+    "venue": "Mind \\& Language",
     "year": 2022,
-    "areas": ["psychology"],
+    "areas": [
+      "philosophy",
+      "psychology"
+    ],
     "pdf": "#",
-    "link": "#"
+    "link": "#",
+    "kind": "article"
   },
   {
-    "title": "Placeholder paper on cross-cultural moral judgment",
-    "authors": "Murray, S., Amaya, S., & Jiménez-Leal, W.",
-    "venue": "Journal Name",
+    "title": "Fixation, flexibility, and creativity: The dynamics of mind wandering",
+    "authors": "Smith, A.P., Brosowsky, N., Murray, S., Daniel, R., Meier, M.E., & Seli, P.",
+    "venue": "Journal of Experimental Psychology: Human Perception and Performance",
+    "year": 2022,
+    "areas": [
+      "psychology"
+    ],
+    "pdf": "#",
+    "link": "#",
+    "kind": "article"
+  },
+  {
+    "title": "The scientific study of passive thinking: Methods of mind wandering research",
+    "authors": "Murray, S., Irving, Z.C., & Krasich, K.",
+    "venue": "Neuroscience and Philosophy",
+    "year": 2022,
+    "areas": [
+      "philosophy",
+      "psychology"
+    ],
+    "pdf": "#",
+    "link": "#",
+    "kind": "article"
+  },
+  {
+    "title": "Consciousness, objectivity, and bias in comparative psychology: Kristin Andrews How to study animal minds",
+    "authors": "Murray, S.",
+    "venue": "",
+    "year": 2022,
+    "areas": [
+      "philosophy"
+    ],
+    "pdf": "#",
+    "link": "#",
+    "kind": "review"
+  },
+  {
+    "title": "The Catch-22 of Forgetfulness: Responsibility for Mental Mistakes",
+    "authors": "Irving, Z., Murray, S., Glasser, A., & Krasich, K.",
+    "venue": "Australasian Journal of Philosophy",
+    "year": 2022,
+    "areas": [
+      "philosophy"
+    ],
+    "pdf": "#",
+    "link": "#",
+    "kind": "article"
+  },
+  {
+    "title": "Mental control and attributions of blame for negligent wrongdoing",
+    "authors": "Murray, S., Krasich, K., Irving, Z.C., Nadelhoffer, T., & De Brigard, F.",
+    "venue": "Journal of Experimental Psychology: General",
+    "year": 2022,
+    "areas": [
+      "psychology"
+    ],
+    "pdf": "#",
+    "link": "#",
+    "kind": "article"
+  },
+  {
+    "title": "Times imagined and remembered",
+    "authors": "De Brigard, F., Khoudary, M., & Murray, S.",
+    "venue": "Temporal asymmetries in philosophy \\& psychology",
+    "year": 2022,
+    "areas": [
+      "philosophy",
+      "psychology"
+    ],
+    "pdf": "#",
+    "link": "#",
+    "kind": "article"
+  },
+  {
+    "title": "Neural differences between internal and external episodic counterfactual thoughts",
+    "authors": "Khoudary, A., O'Neill, K., Faul, L., Murray, S., Smallman, R., & De Brigard, F.",
+    "venue": "Philosophical Transactions of the Royal Society B",
+    "year": 2022,
+    "areas": [
+      "philosophy",
+      "psychology"
+    ],
+    "pdf": "#",
+    "link": "#",
+    "kind": "article"
+  },
+  {
+    "title": "Attention need not always apply: Mind wandering impedes explicit but not implicit sequence learning",
+    "authors": "Brosowsky, N.P., Murray, S., Schooler, J.W., & Seli, P.",
+    "venue": "Cognition",
     "year": 2021,
-    "areas": ["psychology", "philosophy"],
+    "areas": [
+      "psychology"
+    ],
     "pdf": "#",
-    "link": "#"
+    "link": "#",
+    "kind": "article"
   },
   {
-    "title": "Placeholder paper on temporally-extended self-regulation",
-    "authors": "Murray, S.",
-    "venue": "Journal Name",
-    "year": 2023,
-    "areas": ["philosophy"],
+    "title": "Piercing the smoke screen: Dualism, free will, and Christianity",
+    "authors": "Murray, S., Murray, E., & Nadelhoffer, T.",
+    "venue": "Journal of cognition and culture",
+    "year": 2021,
+    "areas": [
+      "philosophy",
+      "psychology"
+    ],
     "pdf": "#",
-    "link": "#"
+    "link": "#",
+    "kind": "article"
   },
   {
-    "title": "Placeholder paper on the metaphysics of omission",
-    "authors": "Murray, S.",
-    "venue": "Journal Name",
-    "year": 2022,
-    "areas": ["philosophy"],
+    "title": "These confabulations are guaranteed to improve your marriage! Toward a teleological theory of confabulation",
+    "authors": "Murray, S., & Finocchiaro, P.",
+    "venue": "Synthese",
+    "year": 2021,
+    "areas": [
+      "philosophy"
+    ],
     "pdf": "#",
-    "link": "#"
+    "link": "#",
+    "kind": "article"
+  },
+  {
+    "title": "Thought dynamics under task demands: Evaluating the influence of task difficulty on unconstrained thought",
+    "authors": "Brosowsky, N.P., Murray, S., Schooler, J.W., & Seli, P.",
+    "venue": "Journal of Experimental Psychology: Human Perception and Performance",
+    "year": 2021,
+    "areas": [
+      "psychology"
+    ],
+    "pdf": "#",
+    "link": "#",
+    "kind": "article"
+  },
+  {
+    "title": "The neurocognitive mechanisms of responsibility: a framework for normatively relevant neuroscience",
+    "authors": "Murray, S., & De Brigard, F.",
+    "venue": "Developments in Neuroethics and bioethics",
+    "year": 2021,
+    "areas": [
+      "philosophy",
+      "psychology"
+    ],
+    "pdf": "#",
+    "link": "#",
+    "kind": "article"
+  },
+  {
+    "title": "The impact of error-consequence severity on cue processing in importance-biased prospective memory",
+    "authors": "Krasich, K., Gjorgieva, E., Murray, S., Bhatia, S., Faber, M., De Brigard, F., & Woldorff, M.G.",
+    "venue": "Cerebral Cortex Communications",
+    "year": 2021,
+    "areas": [
+      "psychology"
+    ],
+    "pdf": "#",
+    "link": "#",
+    "kind": "article"
+  },
+  {
+    "title": "What's in a task? Complications in the study of the task-unrelated-thought variety of mind wandering",
+    "authors": "Murray, S., Krasich, K., Schooler, J.W., & Seli, P.",
+    "venue": "Perspectives on Psychological Science",
+    "year": 2020,
+    "areas": [
+      "psychology"
+    ],
+    "pdf": "#",
+    "link": "#",
+    "kind": "article"
+  },
+  {
+    "title": "I've said it before and I will say it again: Repeating statements made by Donald Trump increases perceived truthfulness",
+    "authors": "Murray, S., Stanley, M., McPhetres, J., Pennycook, G., & Seli, P.",
+    "venue": "OSF (preprint)",
+    "year": 2020,
+    "areas": [
+      "psychology"
+    ],
+    "pdf": "#",
+    "link": "#",
+    "kind": "article"
+  },
+  {
+    "title": "The place of the trace: Negligence and responsibility",
+    "authors": "Murray, S.",
+    "venue": "Review of Philosophy and Psychology",
+    "year": 2020,
+    "areas": [
+      "philosophy",
+      "psychology"
+    ],
+    "pdf": "#",
+    "link": "#",
+    "kind": "article"
+  },
+  {
+    "title": "Vigilance and Control",
+    "authors": "Murray, S., & Vargas, M.",
+    "venue": "Philosophical Studies",
+    "year": 2020,
+    "areas": [
+      "philosophy"
+    ],
+    "pdf": "#",
+    "link": "#",
+    "kind": "article"
+  },
+  {
+    "title": "A case for conservatism about animal consciousness",
+    "authors": "Murray, S.",
+    "venue": "Journal of Consciousness Studies",
+    "year": 2020,
+    "areas": [
+      "philosophy"
+    ],
+    "pdf": "#",
+    "link": "#",
+    "kind": "article"
+  },
+  {
+    "title": "Emergence: Towards a New Metaphysics and Philosophy of Science by Mariusz Tabaczek",
+    "authors": "Murray, S.",
+    "venue": "The Review of Metaphysics",
+    "year": 2020,
+    "areas": [
+      "philosophy"
+    ],
+    "pdf": "#",
+    "link": "#",
+    "kind": "review"
+  },
+  {
+    "title": "Responsibility for forgetting",
+    "authors": "Murray, S., Murray, E.D., Stewart, G., Sinnott-Armstrong, W., & De Brigard, F.",
+    "venue": "Philosophical Studies",
+    "year": 2019,
+    "areas": [
+      "philosophy"
+    ],
+    "pdf": "#",
+    "link": "#",
+    "kind": "article"
+  },
+  {
+    "title": "Why value values?",
+    "authors": "Samuel, M.",
+    "venue": "Behavioral and Brain Sciences",
+    "year": 2018,
+    "areas": [
+      "philosophy",
+      "psychology"
+    ],
+    "pdf": "#",
+    "link": "#",
+    "kind": "article"
+  },
+  {
+    "title": "Reference fiction, and omission",
+    "authors": "Murray, S.",
+    "venue": "Synthese",
+    "year": 2018,
+    "areas": [
+      "philosophy"
+    ],
+    "pdf": "#",
+    "link": "#",
+    "kind": "article"
+  },
+  {
+    "title": "Irena Backus. Leibniz: Protestant Theologian",
+    "authors": "Murray, S.",
+    "venue": "Journal of Analytic Theology",
+    "year": 2018,
+    "areas": [
+      "philosophy"
+    ],
+    "pdf": "#",
+    "link": "#",
+    "kind": "review"
+  },
+  {
+    "title": "Oxford Studies in Agency and Responsibility, edited by David Shoemaker",
+    "authors": "Murray, S.",
+    "venue": "journal of moral philosophy",
+    "year": 2018,
+    "areas": [
+      "philosophy"
+    ],
+    "pdf": "#",
+    "link": "#",
+    "kind": "review"
+  },
+  {
+    "title": "Consciousness and Freedom: The Inseparability of Thinking and Doing",
+    "authors": "Murray, S.",
+    "venue": "The Review of Metaphysics",
+    "year": 2018,
+    "areas": [
+      "philosophy"
+    ],
+    "pdf": "#",
+    "link": "#",
+    "kind": "review"
+  },
+  {
+    "title": "Responsibility and vigilance",
+    "authors": "Murray, S.",
+    "venue": "Philosophical Studies",
+    "year": 2017,
+    "areas": [
+      "philosophy"
+    ],
+    "pdf": "#",
+    "link": "#",
+    "kind": "article"
+  },
+  {
+    "title": "Leibnizian Deliberation",
+    "authors": "Murray, S.",
+    "venue": "Quaestiones Disputatae",
+    "year": 2017,
+    "areas": [
+      "philosophy"
+    ],
+    "pdf": "#",
+    "link": "#",
+    "kind": "article"
+  },
+  {
+    "title": "Randolph Clarke: Omissions: Responsibility, Agency, and Metaphysics",
+    "authors": "Murray, S.",
+    "venue": "Faith and Philosophy",
+    "year": 2016,
+    "areas": [
+      "philosophy"
+    ],
+    "pdf": "#",
+    "link": "#",
+    "kind": "review"
+  },
+  {
+    "title": "O'Connor's argument for indeterminism",
+    "authors": "Murray, S.",
+    "venue": "Philosophical Explorations",
+    "year": 2016,
+    "areas": [
+      "philosophy"
+    ],
+    "pdf": "#",
+    "link": "#",
+    "kind": "article"
+  },
+  {
+    "title": "An early theory of contingency in Leibniz",
+    "authors": "Murray, S.",
+    "venue": "Studia Leibnitiana",
+    "year": 2015,
+    "areas": [
+      "philosophy"
+    ],
+    "pdf": "#",
+    "link": "#",
+    "kind": "article"
+  },
+  {
+    "title": "Book Review: Leibniz, God, and Necessity. By Michael V. Griffin",
+    "authors": "Murray, S.",
+    "venue": "",
+    "year": 2014,
+    "areas": [
+      "philosophy"
+    ],
+    "pdf": "#",
+    "link": "#",
+    "kind": "review"
   }
 ]

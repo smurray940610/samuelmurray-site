@@ -44,14 +44,16 @@ description: "Empirical work on moral cognition, memory, and the control of acti
   <div class="sect-label"><span class="sq"></span><h2>Selected work</h2><span class="rule"></span></div>
   <div class="pubs">
     {% for p in papers | selectattr("areas", "includes", "psychology") | list %}
+    {% if p.kind != "review" %}
     <div class="pub">
       <div class="yr">{{ p.year | shortYear }}</div>
       <div>
         <div class="t">{{ p.title }}</div>
         <div class="v">{{ p.authors }} — {{ p.venue }} ({{ p.year }})</div>
       </div>
-      <a class="go" href="{{ p.pdf }}">PDF</a>
+      {% if p.pdf and p.pdf != "#" %}<a class="go" href="{{ p.pdf }}">PDF</a>{% endif %}
     </div>
+    {% endif %}
     {% endfor %}
   </div>
 
