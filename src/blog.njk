@@ -1,0 +1,39 @@
+---
+layout: layouts/interior.njk
+pageTitle: Para que no se me olvide
+crumb: Notes
+section: blog
+permalink: /blog/
+description: "Para que no se me olvide — shorter thoughts from Samuel Murray."
+---
+<div class="wrap-narrow">
+
+  <header class="blog-head">
+    <div class="mark"><span class="sq" aria-hidden="true"></span></div>
+    <h1>{{ site.blogName }}</h1>
+    <div class="accent" aria-hidden="true"></div>
+    <p class="blurb">Shorter thoughts, half-formed arguments, and things that probably won't become papers — but that I'd like to have out in the world. <span class="ph">[placeholder intro — edit freely]</span></p>
+  </header>
+
+  <main class="posts" aria-label="Blog posts">
+    {% for post in collections.posts %}
+    <a class="post-link" href="{{ post.url }}">
+      <div class="meta">
+        <span>{{ post.date | monthYear }}</span>
+        {% for t in post.data.tags %}{% if t != "post" %}<span class="tag">{{ t }}</span>{% endif %}{% endfor %}
+      </div>
+      <h2>{{ post.data.pageTitle }}</h2>
+      {% if post.data.excerpt %}<p class="excerpt">{{ post.data.excerpt }}</p>{% endif %}
+      <span class="more">Read <span aria-hidden="true">&#8594;</span></span>
+    </a>
+    {% else %}
+    <p class="ph">No posts yet. New notes will appear here.</p>
+    {% endfor %}
+  </main>
+
+  <div class="blog-foot">
+    <span>More notes as they come.</span>
+    <span><a href="/">&#8592; Back to home</a></span>
+  </div>
+
+</div>

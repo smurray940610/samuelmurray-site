@@ -1,0 +1,64 @@
+---
+layout: layouts/interior.njk
+pageTitle: Psychology & Neuroscience
+crumb: Psychology & Neuroscience
+section: psych
+permalink: /psychology/
+description: "Empirical work on moral cognition, memory, and the control of action."
+---
+<div class="wrap">
+
+  <section class="hero-bau" aria-label="Page heading">
+    <div class="blk b-title">
+      <h1>Psychology<br>&amp; Neuroscience</h1>
+      <div class="deck">Empirical work on moral cognition, memory, and the control of action.</div>
+    </div>
+    <div class="blk b-circle">
+      <img class="lab-emblem" src="/assets/camp-logo.png" alt="CaMP Lab logo">
+    </div>
+    <div class="blk b-strip">
+      <span class="tag">Methods</span>
+      <span class="chip">Behavioral experiments</span>
+      <span class="chip">Cross-cultural</span>
+      <span class="chip">fMRI</span>
+      <span class="chip">Computational modeling</span>
+    </div>
+  </section>
+
+  <div class="sect-label"><span class="sq"></span><h2>Research areas</h2><span class="rule"></span></div>
+  <div class="areas">
+    <div class="area a1">
+      <div class="cap"><span class="geo"></span><h3>Moral cognition</h3></div>
+      <div class="body">How people attribute responsibility and blame, and how those judgments vary across cultures. <span class="ph">[placeholder — replace with your framing]</span></div>
+    </div>
+    <div class="area a2">
+      <div class="cap"><span class="geo"></span><h3>Memory &amp; forgetting</h3></div>
+      <div class="body">The cognitive and neural basis of forgetting, intention, and prospective memory. <span class="ph">[placeholder]</span></div>
+    </div>
+    <div class="area a3">
+      <div class="cap"><span class="geo"></span><h3>Self-regulation</h3></div>
+      <div class="body">Temporally-extended control of action and the dynamics of attention over time. <span class="ph">[placeholder]</span></div>
+    </div>
+  </div>
+
+  <div class="sect-label"><span class="sq"></span><h2>Selected work</h2><span class="rule"></span></div>
+  <div class="pubs">
+    {% for p in papers | selectattr("areas", "includes", "psychology") | list %}
+    <div class="pub">
+      <div class="yr">{{ p.year | shortYear }}</div>
+      <div>
+        <div class="t">{{ p.title }}</div>
+        <div class="v">{{ p.authors }} — {{ p.venue }} ({{ p.year }})</div>
+      </div>
+      <a class="go" href="{{ p.pdf }}">PDF</a>
+    </div>
+    {% endfor %}
+  </div>
+
+  <section class="affil" aria-label="Affiliations">
+    <div class="af1"><div class="k">Department</div><div class="vv">Neuroscience Program, Providence College</div></div>
+    <div class="af2"><div class="k">Past</div><div class="vv">Imagination &amp; Modal Cognition Lab, Duke University</div></div>
+    <div class="af3"><div class="k">Collaboration</div><div class="vv">Universidad de los Andes, Bogotá</div></div>
+  </section>
+
+</div>

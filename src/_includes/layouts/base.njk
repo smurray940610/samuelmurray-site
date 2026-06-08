@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if pageTitle %}{{ pageTitle }} — {{ site.name }}{% else %}{{ site.name }}{% endif %}</title>
+  {% if description %}<meta name="description" content="{{ description }}">{% endif %}
+  <meta property="og:title" content="{% if pageTitle %}{{ pageTitle }} — {{ site.name }}{% else %}{{ site.name }}{% endif %}">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="/css/site.css">
+</head>
+<body{% if section %} data-section="{{ section }}"{% endif %}>
+{{ content | safe }}
+</body>
+</html>

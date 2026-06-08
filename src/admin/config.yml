@@ -1,0 +1,60 @@
+backend:
+  name: github
+  repo: smurray940610/samuelmurray-site
+  branch: main
+
+publish_mode: editorial_workflow
+
+media_folder: "src/assets/uploads"
+public_folder: "/assets/uploads"
+
+site_url: https://www.samuelmurray.org
+display_url: https://www.samuelmurray.org
+
+collections:
+  - name: "posts"
+    label: "Blog posts"
+    label_singular: "Blog post"
+    folder: "src/posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    summary: "{{pageTitle}}  ·  {{date | date('YYYY-MM-DD')}}"
+    sortable_fields: ["date", "pageTitle"]
+    fields:
+      - { label: "Title", name: "pageTitle", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, picker_utc: true }
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        default: ["post"]
+        hint: "Keep 'post' as the first tag. Add topic tags like Agency, Memory, Teaching."
+      - { label: "Excerpt", name: "excerpt", widget: "text", required: false, hint: "1–2 sentences shown on the blog index." }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "papers"
+    label: "Papers"
+    label_singular: "Paper"
+    files:
+      - name: "papers_list"
+        label: "All papers"
+        file: "src/_data/papers.json"
+        description: "Your publications. Tag each with the area(s) it belongs to so it shows on the right page(s)."
+        fields:
+          - label: "Papers"
+            name: "papers"
+            widget: "list"
+            label_singular: "Paper"
+            summary: "{{fields.year}} — {{fields.title}}"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Authors", name: "authors", widget: "string", hint: "e.g. Murray, S., & Coauthor, A." }
+              - { label: "Venue", name: "venue", widget: "string", hint: "Journal or book name." }
+              - { label: "Year", name: "year", widget: "number", value_type: "int", min: 1990, max: 2100 }
+              - label: "Area(s)"
+                name: "areas"
+                widget: "select"
+                multiple: true
+                options: ["philosophy", "psychology"]
+                hint: "Choose one or both. Controls which page(s) the paper appears on."
+              - { label: "PDF or link", name: "pdf", widget: "string", required: false, default: "#", hint: "Paste a URL, or upload a PDF below and use its path." }
+              - { label: "Upload PDF (optional)", name: "pdf_file", widget: "file", required: false }

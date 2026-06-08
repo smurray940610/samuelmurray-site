@@ -1,0 +1,30 @@
+---
+layout: layouts/base.njk
+section: post
+---
+<div class="bar">
+  <a class="home" href="/blog/">&#8592; {{ site.blogName }}</a>
+  <span class="crumb"><a href="/" style="border:none;color:inherit;">{{ site.name }}</a></span>
+</div>
+
+<article class="wrap-narrow">
+
+  <header class="phead">
+    <div class="meta">
+      <span>{{ date | monthYear }}</span>
+      {% for t in tags %}{% if t != "post" %}<span class="tag">{{ t }}</span>{% endif %}{% endfor %}
+    </div>
+    <h1>{{ pageTitle }}</h1>
+    <div class="accent" aria-hidden="true"></div>
+  </header>
+
+  <div class="post-body">
+    {{ content | safe }}
+  </div>
+
+  <div class="pfoot">
+    <a href="/blog/">&#8592; All notes</a>
+    <a href="/">Home &#8599;</a>
+  </div>
+
+</article>

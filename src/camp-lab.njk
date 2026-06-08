@@ -1,0 +1,48 @@
+---
+layout: layouts/interior.njk
+pageTitle: CaMP Lab
+crumb: CaMP Lab
+section: camp
+permalink: /camp-lab/
+barLogo: /assets/camp-logo.png
+description: "The CaMP Lab — current and past projects and grants."
+---
+<div class="wrap">
+
+  <section class="hero-con" aria-label="Page heading">
+    <span class="bardiag" aria-hidden="true"></span>
+    <span class="barblk" aria-hidden="true"></span>
+    <h1>CaMP LAB</h1>
+    <p class="deck">Cognition, Morality, and Philosophy — current and past projects, with their grants.</p>
+    <span class="stat"><span>Cognition · Morality · Philosophy</span></span>
+  </section>
+
+  <div class="sect-label"><span class="sq"></span><h2>Supported by</h2><span class="rule"></span></div>
+  <div class="funders">
+    {% for f in funders %}
+    {% if f.url %}<a class="funder" href="{{ f.url }}" aria-label="{{ f.name }}">{% else %}<div class="funder">{% endif %}
+      {% if f.logo %}
+        <img src="{{ f.logo }}" alt="{{ f.name }}">
+      {% else %}
+        <span class="wordmark">{{ f.name }}<span class="short">{{ f.short }}</span></span>
+      {% endif %}
+    {% if f.url %}</a>{% else %}</div>{% endif %}
+    {% endfor %}
+  </div>
+  <p class="ph" style="margin:10px 2px 24px;">Logo slots are ready — drop in each funder's official logo image (set the <code>logo</code> path in funders data) and the wordmark is replaced automatically.</p>
+
+  <div class="sect-label"><span class="sq"></span><h2>Projects &amp; grants</h2><span class="rule"></span></div>
+  <div class="projects">
+    {% for pr in projects %}
+    <div class="project">
+      <div class="num">{{ loop.index | pad2 }}</div>
+      <h3>{{ pr.title }}</h3>
+      <p>{{ pr.blurb }}</p>
+      <div class="yrs">{{ pr.years }} · {{ pr.funder }}</div>
+    </div>
+    {% endfor %}
+  </div>
+
+  <p class="ph" style="margin:24px 2px 60px;">Project and grant details are placeholders — replace with your real funded work.</p>
+
+</div>

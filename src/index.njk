@@ -1,0 +1,44 @@
+---
+layout: layouts/base.njk
+pageTitle: false
+description: "Samuel Murray — Assistant Professor of Philosophy and Neuroscience, Providence College."
+---
+<header class="home-masthead">
+  <span class="hint">Select a form to navigate</span>
+  <div class="nm">{{ site.name }}</div>
+  <div class="ttl">{{ site.title }}<br>{{ site.dept }}</div>
+</header>
+
+<main class="stage" aria-label="Site navigation">
+  <div class="diagonal" aria-hidden="true">
+    <svg viewBox="0 0 900 600" preserveAspectRatio="none">
+      <line x1="70" y1="560" x2="840" y2="70" stroke="#1A1A1A" stroke-width="3"/>
+    </svg>
+  </div>
+
+  <a class="form f-philo" href="/philosophy/" aria-label="Philosophy research">
+    <span class="lab">Philosophy</span>
+  </a>
+  <a class="form f-psych" href="/psychology/" aria-label="Psychology and neuroscience research">
+    <span class="lab">Psych /<br>Neurosci</span>
+  </a>
+  <a class="form f-blog" href="/blog/" aria-label="{{ site.blogName }}">
+    <span class="lab">Blog</span>
+  </a>
+  <a class="form f-teaching" href="/teaching/" aria-label="Teaching">
+    <span class="lab">Teaching</span>
+  </a>
+  <a class="form f-camp" href="/camp-lab/" aria-label="CaMP Lab and grants">
+    <span class="lab">CaMP Lab</span>
+  </a>
+
+  <span class="enddot" aria-hidden="true"></span>
+</main>
+
+<nav class="home-mobile" aria-label="Site navigation">
+  <a class="m-link m-philo" href="/philosophy/">Philosophy <span aria-hidden="true">&#8599;</span></a>
+  <a class="m-link m-psych" href="/psychology/">Psych / Neurosci <span aria-hidden="true">&#8599;</span></a>
+  <a class="m-link m-teach" href="/teaching/">Teaching <span aria-hidden="true">&#8599;</span></a>
+  <a class="m-link m-camp" href="/camp-lab/">CaMP Lab <span aria-hidden="true">&#8599;</span></a>
+  <a class="m-link m-blog" href="/blog/">Blog <span class="m-sub">{{ site.blogName }}</span><span aria-hidden="true">&#8599;</span></a>
+</nav>

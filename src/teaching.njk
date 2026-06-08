@@ -1,0 +1,38 @@
+---
+layout: layouts/interior.njk
+pageTitle: Teaching
+crumb: Teaching
+section: teaching
+permalink: /teaching/
+description: "Courses taught by Samuel Murray at Providence College."
+---
+<div class="wrap">
+
+  <section class="hero-mond" aria-label="Page heading">
+    <div class="m m-name">
+      <h1>Teaching</h1>
+      <div class="deck">Courses in philosophy and neuroscience at Providence College.</div>
+    </div>
+    <div class="m m-red"><div class="k">Department</div><div class="v" style="color:#FBEFE9;">Philosophy</div></div>
+    <div class="m m-white"><div class="k">Program</div><div class="v">Neuroscience</div></div>
+    <div class="m m-yellow"><div class="k">Level</div><div class="v" style="color:#3A2A10;">Undergraduate</div></div>
+    <div class="m m-blue"><div class="k">Note</div><div class="v" style="color:#EAF0F2;">Email me for a copy of any syllabus</div></div>
+  </section>
+
+  <div class="sect-label"><span class="sq"></span><h2>Courses</h2><span class="rule"></span></div>
+  <div class="courses">
+    {% for c in courses %}
+    <div class="course">
+      <div class="code">{{ c.code }}</div>
+      <div>
+        <div class="ti">{{ c.title }}</div>
+        <div class="meta">{{ c.meta }}</div>
+      </div>
+      <div class="term">{{ c.term }}</div>
+    </div>
+    {% endfor %}
+  </div>
+
+  <p class="ph" style="margin:24px 2px 60px;">Course list is illustrative — replace with your actual offerings and add syllabus links.</p>
+
+</div>

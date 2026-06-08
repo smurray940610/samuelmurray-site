@@ -1,0 +1,32 @@
+[
+  {
+    "code": "PHL 101",
+    "title": "Introduction to Philosophy",
+    "meta": "Core curriculum — placeholder",
+    "term": "Fall"
+  },
+  {
+    "code": "PHL 210",
+    "title": "Ethics",
+    "meta": "Moral theory and applied questions — placeholder",
+    "term": "Spring"
+  },
+  {
+    "code": "PHL 320",
+    "title": "Philosophy of Mind",
+    "meta": "Consciousness, agency, and cognition — placeholder",
+    "term": "Fall"
+  },
+  {
+    "code": "NSC 250",
+    "title": "Cognitive Neuroscience",
+    "meta": "Cross-listed with Neuroscience — placeholder",
+    "term": "Spring"
+  },
+  {
+    "code": "PHL 480",
+    "title": "Seminar: Agency & Responsibility",
+    "meta": "Advanced seminar — placeholder",
+    "term": "Varies"
+  }
+]

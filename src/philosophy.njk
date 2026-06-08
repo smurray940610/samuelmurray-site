@@ -1,0 +1,65 @@
+---
+layout: layouts/interior.njk
+pageTitle: Philosophy
+crumb: Philosophy
+section: philosophy
+permalink: /philosophy/
+description: "Philosophical work on agency, forgetting, self-regulation, and the dynamics of consciousness."
+---
+<div class="wrap">
+
+  <section class="hero-sup" aria-label="Page heading">
+    <div class="diag" aria-hidden="true">
+      <svg viewBox="0 0 900 340" preserveAspectRatio="none">
+        <line x1="60" y1="320" x2="840" y2="40" stroke="#1A1A1A" stroke-width="2.5"/>
+      </svg>
+    </div>
+    <span class="shape s-red" aria-hidden="true"></span>
+    <span class="shape s-blk" aria-hidden="true"></span>
+    <span class="shape s-out" aria-hidden="true"></span>
+    <h1>Philosophy</h1>
+  </section>
+
+  <p class="deck">Work on temporally-extended agency, the ethics and metaphysics of forgetting, self-regulation, and the dynamics of consciousness — and, more recently, the pedagogy of civil discourse. <span class="ph">[placeholder — replace with your own framing]</span></p>
+
+  <div class="sect-label"><span class="sq"></span><h2>Research themes</h2><span class="rule"></span></div>
+  <div class="themes">
+    <div class="theme t-circ">
+      <span class="mk" aria-hidden="true"></span>
+      <h3>Agency over time</h3>
+      <p>How intentions reach across time to govern later action, and what that demands of a theory of self-control. <span class="ph">[placeholder]</span></p>
+    </div>
+    <div class="theme t-sq">
+      <span class="mk" aria-hidden="true"></span>
+      <h3>Forgetting &amp; omission</h3>
+      <p>When forgetting is action-like, and how responsibility attaches to what we fail to do or remember. <span class="ph">[placeholder]</span></p>
+    </div>
+    <div class="theme t-tri">
+      <span class="mk" aria-hidden="true"></span>
+      <h3>Consciousness</h3>
+      <p>The temporal structure and dynamics of conscious experience. <span class="ph">[placeholder]</span></p>
+    </div>
+    <div class="theme t-bar">
+      <span class="mk" aria-hidden="true"></span>
+      <h3>Civil discourse</h3>
+      <p>Pedagogy of disagreement, with the Dialogue, Inclusion, and Democracy lab. <span class="ph">[placeholder]</span></p>
+    </div>
+  </div>
+
+  <div class="sect-label"><span class="sq"></span><h2>Selected work</h2><span class="rule"></span></div>
+  <div class="pubs">
+    {% for p in papers | selectattr("areas", "includes", "philosophy") | list %}
+    <div class="pub">
+      <div class="yr">{{ p.year | shortYear }}</div>
+      <div>
+        <div class="t">{{ p.title }}</div>
+        <div class="v">{{ p.authors }} — {{ p.venue }} ({{ p.year }})</div>
+      </div>
+      <a class="go" href="{{ p.pdf }}">PDF</a>
+    </div>
+    {% endfor %}
+  </div>
+
+  <p class="ph" style="margin:24px 2px 60px;">Email me for papers or drafts.</p>
+
+</div>
