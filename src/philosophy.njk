@@ -48,8 +48,7 @@ description: "Philosophical work on agency, forgetting, self-regulation, and the
 
   <div class="sect-label"><span class="sq"></span><h2>Selected work</h2><span class="rule"></span></div>
   <div class="pubs">
-    {% for p in papers | selectattr("areas", "includes", "philosophy") | list %}
-    {% if p.kind != "review" %}
+    {% for p in papers | byArea("philosophy", false) %}
     <div class="pub">
       <div class="yr">{{ p.year | shortYear }}</div>
       <div>
@@ -58,13 +57,12 @@ description: "Philosophical work on agency, forgetting, self-regulation, and the
       </div>
       {% if p.pdf and p.pdf != "#" %}<a class="go" href="{{ p.pdf }}">PDF</a>{% endif %}
     </div>
-    {% endif %}
     {% endfor %}
   </div>
 
   <div class="sect-label"><span class="sq"></span><h2>Book reviews</h2><span class="rule"></span></div>
   <div class="pubs">
-    {% for p in papers | selectattr("kind", "equalto", "review") | list %}
+    {% for p in papers | onlyReviews %}
     <div class="pub">
       <div class="yr">{{ p.year | shortYear }}</div>
       <div>

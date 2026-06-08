@@ -43,8 +43,7 @@ description: "Empirical work on moral cognition, memory, and the control of acti
 
   <div class="sect-label"><span class="sq"></span><h2>Selected work</h2><span class="rule"></span></div>
   <div class="pubs">
-    {% for p in papers | selectattr("areas", "includes", "psychology") | list %}
-    {% if p.kind != "review" %}
+    {% for p in papers | byArea("psychology", false) %}
     <div class="pub">
       <div class="yr">{{ p.year | shortYear }}</div>
       <div>
@@ -53,7 +52,6 @@ description: "Empirical work on moral cognition, memory, and the control of acti
       </div>
       {% if p.pdf and p.pdf != "#" %}<a class="go" href="{{ p.pdf }}">PDF</a>{% endif %}
     </div>
-    {% endif %}
     {% endfor %}
   </div>
 

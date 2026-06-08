@@ -1,8 +1,8 @@
 module.exports = function (eleventyConfig) {
-  // Copy static assets straight through to the built site
-  eleventyConfig.addPassthroughCopy("src/css");
-  eleventyConfig.addPassthroughCopy("src/assets");
-  eleventyConfig.addPassthroughCopy("src/admin");
+  // Copy static assets straight through to the built site.
+  eleventyConfig.addPassthroughCopy({ "src/css": "css" });
+  eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
+  eleventyConfig.addPassthroughCopy({ "src/admin": "admin" });
 
   // Friendly date filter for posts (e.g. "June 2026")
   eleventyConfig.addFilter("monthYear", (d) => {
@@ -12,9 +12,30 @@ module.exports = function (eleventyConfig) {
 
   // Short year for publication lists (e.g. "'24")
   eleventyConfig.addFilter("shortYear", (y) => "'" + String(y).slice(-2));
-eleventyConfig.addFilter("pad2", (n) => String(n).padStart(2, "0"));
 
-  // Collections
+  // Zero-pad a number to 2 digits (e.g. 1 -> "01"); used for project numbering.
+  eleventyConfig.addFilter("pad2", (n) => String(n).padStart(2, "0"));
+
+  // Filter papers by area + (optionally) exclude reviews. Reliable replacement
+  // for Nunjucks selectattr("areas","includes",...), which is flaky on arrays.
+  eleventyConfig.addFilter("byArea", (papers, area, includeReviews) => {
+    return (papers || []).filter((p) => {
+      const inArea = Array.isArray(p.areas) && p.areas.indexOf(area) !== -1;
+      const isReview = p.kind === "review";
+      if (!inArea) return false;
+      if (!includeReviews && isReview) return false;
+      return true;
+    });
+  });
+
+  // Just the reviews (any area), for the dedicated reviews section.
+  eleventyConfig.addFilter("onlyReviews", (papers, area) => {
+    return (papers || []).filter(
+      (p) => p.kind === "review" && (!area || (Array.isArray(p.areas) && p.areas.indexOf(area) !== -1))
+    );
+  });
+
+  // Posts collection
   eleventyConfig.addCollection("posts", (api) =>
     api.getFilteredByGlob("src/posts/*.md").reverse()
   );
