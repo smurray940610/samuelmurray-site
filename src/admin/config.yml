@@ -4,8 +4,6 @@ backend:
   branch: main
   base_url: https://sveltia-cms-auth.samuel-f-murray18.workers.dev
 
-publish_mode: editorial_workflow
-
 media_folder: "src/assets/uploads"
 public_folder: "/assets/uploads"
 
@@ -19,6 +17,7 @@ collections:
     folder: "src/posts"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug_length: 60
     summary: "{{pageTitle}}  ·  {{date | date('YYYY-MM-DD')}}"
     sortable_fields: ["date", "pageTitle"]
     fields:
