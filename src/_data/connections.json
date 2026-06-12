@@ -1,0 +1,129 @@
+{
+  "Negligence and self-trust": [
+    {
+      "type": "extends",
+      "label": "Extends",
+      "to": "Responsibility and vigilance"
+    },
+    {
+      "type": "extends",
+      "label": "Extends",
+      "to": "The place of the trace: Negligence and responsibility"
+    }
+  ],
+  "The place of the trace: Negligence and responsibility": [
+    {
+      "type": "extends",
+      "label": "Extends",
+      "to": "Responsibility and vigilance"
+    }
+  ],
+  "Vigilance and Control": [
+    {
+      "type": "extends",
+      "label": "Extends",
+      "to": "Responsibility and vigilance"
+    }
+  ],
+  "Bringing Self-control into the Future": [
+    {
+      "type": "philosophical_complement",
+      "label": "Philosophical complement to",
+      "to": "The nature and norms of vigilance"
+    }
+  ],
+  "Vigilance": [
+    {
+      "type": "companion",
+      "label": "Companion to",
+      "to": "The nature and norms of vigilance"
+    }
+  ],
+  "The nature and norms of vigilance": [
+    {
+      "type": "companion",
+      "label": "Companion to",
+      "to": "Vigilance"
+    }
+  ],
+  "Vigilance and mind wandering": [
+    {
+      "type": "extends",
+      "label": "Extends",
+      "to": "Can the mind wander intentionally?"
+    },
+    {
+      "type": "extends",
+      "label": "Extends",
+      "to": "The scientific study of passive thinking: Methods of mind wandering research"
+    }
+  ],
+  "The Catch-22 of Forgetfulness: Responsibility for Mental Mistakes": [
+    {
+      "type": "extends",
+      "label": "Extends",
+      "to": "Responsibility for forgetting"
+    },
+    {
+      "type": "philosophical_complement",
+      "label": "Philosophical complement to",
+      "to": "Blame for Hum(e)an Beings (psychology)"
+    }
+  ],
+  "Do people understand determinism? The tracking problem for measuring free will beliefs": [
+    {
+      "type": "extends",
+      "label": "Extends",
+      "to": "Intuitions about free will and the failure to comprehend determinism"
+    }
+  ],
+  "Intuitions about free will and the failure to comprehend determinism": [
+    {
+      "type": "inspired",
+      "label": "Inspired",
+      "to": "Do people understand determinism? The tracking problem for measuring free will beliefs"
+    }
+  ],
+  "Not what I expected: Feeling of surprise differentially mediates effect of personal control on attributions of free will and responsibility": [
+    {
+      "type": "companion",
+      "label": "Companion to",
+      "to": "Intuitions about free will and the failure to comprehend determinism"
+    }
+  ],
+  "Leibnizian Deliberation": [
+    {
+      "type": "companion",
+      "label": "Companion to",
+      "to": "An early theory of contingency in Leibniz"
+    }
+  ],
+  "The neurocognitive mechanisms of responsibility: a framework for normatively relevant neuroscience": [
+    {
+      "type": "philosophical_complement",
+      "label": "Philosophical complement to",
+      "to": "Vigilance and Control"
+    }
+  ],
+  "Responsibility and vigilance": [
+    {
+      "type": "inspired",
+      "label": "Inspired",
+      "to": "Vigilance and Control"
+    }
+  ],
+  "Responsibility for forgetting": [
+    {
+      "type": "complements",
+      "label": "Complements",
+      "to": "Responsibility and vigilance"
+    }
+  ],
+  "Purity is linked to cooperation but not necessarily through self-control": [
+    {
+      "type": "philosophical_complement",
+      "label": "Philosophical complement to",
+      "to": "Within Your Rights (psychology)"
+    }
+  ]
+}

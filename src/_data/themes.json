@@ -1,0 +1,74 @@
+[
+  {
+    "id": "vigilance",
+    "label": "Vigilance & acting over time",
+    "shape": "circle",
+    "blurb": "How do planning agents manage to act over time? Through vigilance, the self-regulatory capacity that manages attention, memory, and control over scattered actions."
+  },
+  {
+    "id": "negligence",
+    "label": "Negligence & responsibility",
+    "shape": "square",
+    "blurb": "When and why are we blameworthy for unwitting omissions and forgetting, and what theory of responsible agency — capacity, value, or self-trust — best explains it?"
+  },
+  {
+    "id": "self-trust",
+    "label": "Self-trust",
+    "shape": "ring",
+    "blurb": "Trust in one’s own future and past self as a precondition of planning agency — and what its erosion means for responsibility, psychiatry, and neurotechnology."
+  },
+  {
+    "id": "free-will",
+    "label": "Free will & the folk",
+    "shape": "triangle",
+    "blurb": "What ordinary people believe about free will and determinism — and whether the experiments that purport to measure those beliefs actually do."
+  },
+  {
+    "id": "mind-wandering",
+    "label": "Mind-wandering & thought",
+    "shape": "wave",
+    "blurb": "What mind-wandering is, whether it can be intentional, and how the dynamics of unguided thought fit a theory of agency."
+  },
+  {
+    "id": "self-control",
+    "label": "Self-control & cognitive control",
+    "shape": "half-disc",
+    "blurb": "Self-control reconceived as coordination rather than willpower, grounded in the computational structure of cognitive control — in humans and machines."
+  },
+  {
+    "id": "moral-cognition",
+    "label": "Moral cognition & its paradigms",
+    "shape": "cross",
+    "blurb": "The psychology of moral judgment — cooperation, purity, character — and a critique of whether trolley-style paradigms capture moral cognition at all."
+  },
+  {
+    "id": "mind-sciences",
+    "label": "Carving the mind",
+    "shape": "diagonal-bar",
+    "blurb": "Metaphysics and methodology of the cognitive sciences: cognitive ontology, mental imagery, memory, and the question of which kinds cognitive science should be built around."
+  },
+  {
+    "id": "trust-in-science",
+    "label": "Trust in science & public reason",
+    "shape": "open-square",
+    "blurb": "What norms govern the use of scientific information in public deliberation, and how should science position itself in public life to foster public trust in the institution?"
+  },
+  {
+    "id": "civic-epistemology",
+    "label": "Disagreement & democracy",
+    "shape": "small-circle",
+    "blurb": "The epistemology of political disagreement: why warmth doesn’t fix democracy, what partisans get wrong about each other, and when discounting an opponent’s reasons is rational."
+  },
+  {
+    "id": "history",
+    "label": "History of philosophy",
+    "shape": "quadrant",
+    "blurb": "Miscellaneous work on figures in the history of philosophy, mainly focused on historical theories of agency, free will, and causation."
+  },
+  {
+    "id": "various",
+    "label": "Other",
+    "shape": "dot",
+    "blurb": "Standalone work in metaethics, philosophy of language, and adjacent areas."
+  }
+]

@@ -1,0 +1,20 @@
+{# Renders a Suprematist geometric mark for a given theme shape token.
+   Usage: {% include "themeshape.njk" %} with `shape` (token) and optional `cls` set in context.
+   Colors come from CSS vars via currentColor / fill classes on the wrapper. #}
+{%- set s = shape -%}
+<svg class="tshape {{ cls }}" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+{%- if s == "circle" -%}<circle cx="16" cy="16" r="13" class="fR"/>
+{%- elif s == "square" -%}<rect x="4" y="4" width="24" height="24" class="fK"/>
+{%- elif s == "ring" -%}<circle cx="16" cy="16" r="12" fill="none" stroke="#D62828" stroke-width="4" class="sR"/>
+{%- elif s == "triangle" -%}<polygon points="16,3 29,28 3,28" class="fS"/>
+{%- elif s == "wave" -%}<path d="M2 20 q7 -12 14 0 t14 0" fill="none" stroke="#E09F3E" stroke-width="4" class="sO"/>
+{%- elif s == "half-disc" -%}<path d="M3 16 a13 13 0 0 1 26 0 z" class="fK"/>
+{%- elif s == "cross" -%}<path d="M13 3 h6 v10 h10 v6 h-10 v10 h-6 v-10 h-10 v-6 h10 z" class="fR"/>
+{%- elif s == "diagonal-bar" -%}<rect x="2" y="12" width="28" height="8" transform="rotate(-32 16 16)" class="fS"/>
+{%- elif s == "open-square" -%}<rect x="5" y="5" width="22" height="22" fill="none" stroke="#1A1A1A" stroke-width="4" class="sK"/>
+{%- elif s == "small-circle" -%}<circle cx="16" cy="16" r="8" class="fO"/>
+{%- elif s == "quadrant" -%}<path d="M4 28 V4 a24 24 0 0 1 24 24 z" class="fS"/>
+{%- elif s == "dot" -%}<circle cx="16" cy="16" r="5" class="fK"/>
+{%- else -%}<circle cx="16" cy="16" r="12" class="fK"/>
+{%- endif -%}
+</svg>

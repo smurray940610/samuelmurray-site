@@ -9,8 +9,14 @@
       "philosophy"
     ],
     "pdf": "#",
-    "link": "#",
-    "kind": "article"
+    "link": "https://onlinelibrary.wiley.com/doi/10.1111/phpr.70127",
+    "kind": "article",
+    "theme": "vigilance",
+    "themesAll": [
+      "vigilance",
+      "self-control",
+      "negligence"
+    ]
   },
   {
     "title": "Mental control and effort differ across different kinds of mental action",
@@ -82,8 +88,13 @@
       "psychology"
     ],
     "pdf": "#",
-    "link": "#",
-    "kind": "article"
+    "link": "https://onlinelibrary.wiley.com/doi/full/10.1111/mila.12526",
+    "kind": "article",
+    "theme": "mind-wandering",
+    "themesAll": [
+      "mind-wandering",
+      "vigilance"
+    ]
   },
   {
     "title": "What are the benefits of mind wandering to creativity?",
@@ -106,8 +117,13 @@
       "philosophy"
     ],
     "pdf": "#",
-    "link": "#",
-    "kind": "article"
+    "link": "https://academic.oup.com/book/57562/chapter-abstract/469100906",
+    "kind": "article",
+    "theme": "free-will",
+    "themesAll": [
+      "free-will",
+      "trust-in-science"
+    ]
   },
   {
     "title": "Negligence and self-trust",
@@ -118,8 +134,14 @@
       "philosophy"
     ],
     "pdf": "#",
-    "link": "#",
-    "kind": "article"
+    "link": "https://academic.oup.com/book/55955/chapter/439433794",
+    "kind": "article",
+    "theme": "self-trust",
+    "themesAll": [
+      "self-trust",
+      "negligence",
+      "vigilance"
+    ]
   },
   {
     "title": "Causal Power and Perfection: Descartes' Second A Posteriori Argument for the Existence of God",
@@ -130,8 +152,9 @@
       "philosophy"
     ],
     "pdf": "#",
-    "link": "#",
-    "kind": "article"
+    "link": "https://muse.jhu.edu/pub/322/article/922070",
+    "kind": "article",
+    "theme": "history"
   },
   {
     "title": "Blame for Hum(e)an beings: The role of character information in judgments of blame",
@@ -178,8 +201,9 @@
       "philosophy"
     ],
     "pdf": "#",
-    "link": "#",
-    "kind": "article"
+    "link": "https://scholarlypublishingcollective.org/uip/apq/article-abstract/61/3/265/388051/The-Nature-and-Norms-of-Vigilance",
+    "kind": "article",
+    "theme": "vigilance"
   },
   {
     "title": "Within your rights: Dissociating wrongness and permissibility in moral judgement",
@@ -250,12 +274,17 @@
       "philosophy"
     ],
     "pdf": "#",
-    "link": "#",
-    "kind": "article"
+    "link": "https://www.tandfonline.com/doi/abs/10.1080/00048402.2022.2157031",
+    "kind": "article",
+    "theme": "negligence",
+    "themesAll": [
+      "negligence",
+      "moral-cognition"
+    ]
   },
   {
     "title": "Intuitions about free will and the failure to comprehend determinism",
-    "authors": "Nadelhoffer, T., Murray, S., & Murry, E.",
+    "authors": "Nadelhoffer, T., Murray, S., & Dykhuis, E.",
     "venue": "Erkenntnis",
     "year": 2023,
     "areas": [
@@ -263,8 +292,9 @@
       "psychology"
     ],
     "pdf": "#",
-    "link": "#",
-    "kind": "article"
+    "link": "https://link.springer.com/article/10.1007/s10670-021-00465-y",
+    "kind": "article",
+    "theme": "free-will"
   },
   {
     "title": "What's inside is all that counts? The contours of everyday thinking about self-control",
@@ -276,8 +306,13 @@
       "psychology"
     ],
     "pdf": "#",
-    "link": "#",
-    "kind": "article"
+    "link": "https://link.springer.com/article/10.1007/s13164-021-00573-2",
+    "kind": "article",
+    "theme": "self-control",
+    "themesAll": [
+      "self-control",
+      "moral-cognition"
+    ]
   },
   {
     "title": "Purity is linked to cooperation but not necessarily through self-control",
@@ -289,8 +324,13 @@
       "psychology"
     ],
     "pdf": "#",
-    "link": "#",
-    "kind": "article"
+    "link": "https://pubmed.ncbi.nlm.nih.gov/37789547/",
+    "kind": "article",
+    "theme": "moral-cognition",
+    "themesAll": [
+      "moral-cognition",
+      "self-control"
+    ]
   },
   {
     "title": "Moralization and self-control strategy selection",
@@ -313,8 +353,13 @@
       "philosophy"
     ],
     "pdf": "#",
-    "link": "#",
-    "kind": "article"
+    "link": "https://philarchive.org/rec/MURBSI-2",
+    "kind": "article",
+    "theme": "self-control",
+    "themesAll": [
+      "self-control",
+      "vigilance"
+    ]
   },
   {
     "title": "Introduction to Advances in Experimental Philosophy of Action",
@@ -325,8 +370,13 @@
       "philosophy"
     ],
     "pdf": "#",
-    "link": "#",
-    "kind": "article"
+    "link": "https://philarchive.org/rec/MURIZG",
+    "kind": "article",
+    "theme": "various",
+    "themesAll": [
+      "various",
+      "free-will"
+    ]
   },
   {
     "title": "Advances in experimental philosophy of action",
@@ -338,7 +388,8 @@
     ],
     "pdf": "#",
     "link": "#",
-    "kind": "article"
+    "kind": "article",
+    "theme": "various"
   },
   {
     "title": "Not what I expected: Feeling of surprise differentially mediates effect of personal control on attributions of free will and responsibility",
@@ -351,7 +402,12 @@
     ],
     "pdf": "#",
     "link": "#",
-    "kind": "article"
+    "kind": "article",
+    "theme": "free-will",
+    "themesAll": [
+      "free-will",
+      "negligence"
+    ]
   },
   {
     "title": "Can the mind wander intentionally?",
@@ -363,8 +419,13 @@
       "psychology"
     ],
     "pdf": "#",
-    "link": "#",
-    "kind": "article"
+    "link": "https://onlinelibrary.wiley.com/doi/full/10.1111/mila.12332",
+    "kind": "article",
+    "theme": "mind-wandering",
+    "themesAll": [
+      "mind-wandering",
+      "vigilance"
+    ]
   },
   {
     "title": "Fixation, flexibility, and creativity: The dynamics of mind wandering",
@@ -388,8 +449,13 @@
       "psychology"
     ],
     "pdf": "#",
-    "link": "#",
-    "kind": "article"
+    "link": "https://www.ncbi.nlm.nih.gov/books/NBK583714/",
+    "kind": "article",
+    "theme": "mind-wandering",
+    "themesAll": [
+      "mind-wandering",
+      "mind-sciences"
+    ]
   },
   {
     "title": "Consciousness, objectivity, and bias in comparative psychology: Kristin Andrews How to study animal minds",
@@ -426,7 +492,8 @@
     ],
     "pdf": "#",
     "link": "#",
-    "kind": "article"
+    "kind": "article",
+    "theme": "mind-sciences"
   },
   {
     "title": "Neural differences between internal and external episodic counterfactual thoughts",
@@ -434,7 +501,6 @@
     "venue": "Philosophical Transactions of the Royal Society B",
     "year": 2022,
     "areas": [
-      "philosophy",
       "psychology"
     ],
     "pdf": "#",
@@ -464,7 +530,8 @@
     ],
     "pdf": "#",
     "link": "#",
-    "kind": "article"
+    "kind": "article",
+    "theme": "free-will"
   },
   {
     "title": "These confabulations are guaranteed to improve your marriage! Toward a teleological theory of confabulation",
@@ -476,7 +543,13 @@
     ],
     "pdf": "#",
     "link": "#",
-    "kind": "article"
+    "kind": "article",
+    "theme": "self-control",
+    "themesAll": [
+      "self-control",
+      "moral-cognition",
+      "self-trust"
+    ]
   },
   {
     "title": "Thought dynamics under task demands: Evaluating the influence of task difficulty on unconstrained thought",
@@ -501,7 +574,13 @@
     ],
     "pdf": "#",
     "link": "#",
-    "kind": "article"
+    "kind": "article",
+    "theme": "mind-sciences",
+    "themesAll": [
+      "mind-sciences",
+      "vigilance",
+      "negligence"
+    ]
   },
   {
     "title": "The impact of error-consequence severity on cue processing in importance-biased prospective memory",
@@ -549,8 +628,13 @@
       "psychology"
     ],
     "pdf": "#",
-    "link": "#",
-    "kind": "article"
+    "link": "https://link.springer.com/article/10.1007/s13164-019-00444-x",
+    "kind": "article",
+    "theme": "negligence",
+    "themesAll": [
+      "negligence",
+      "vigilance"
+    ]
   },
   {
     "title": "Vigilance and Control",
@@ -561,8 +645,14 @@
       "philosophy"
     ],
     "pdf": "#",
-    "link": "#",
-    "kind": "article"
+    "link": "https://link.springer.com/article/10.1007/s11098-018-1208-2",
+    "kind": "article",
+    "theme": "vigilance",
+    "themesAll": [
+      "vigilance",
+      "negligence",
+      "self-control"
+    ]
   },
   {
     "title": "A case for conservatism about animal consciousness",
@@ -573,8 +663,13 @@
       "philosophy"
     ],
     "pdf": "#",
-    "link": "#",
-    "kind": "article"
+    "link": "https://www.ingentaconnect.com/content/imp/jcs/2020/00000027/f0020009/art00008",
+    "kind": "article",
+    "theme": "mind-sciences",
+    "themesAll": [
+      "mind-sciences",
+      "trust-in-science"
+    ]
   },
   {
     "title": "Emergence: Towards a New Metaphysics and Philosophy of Science by Mariusz Tabaczek",
@@ -597,8 +692,9 @@
       "philosophy"
     ],
     "pdf": "#",
-    "link": "#",
-    "kind": "article"
+    "link": "https://link.springer.com/article/10.1007/s11098-018-1053-3",
+    "kind": "article",
+    "theme": "negligence"
   },
   {
     "title": "Why value values?",
@@ -611,7 +707,12 @@
     ],
     "pdf": "#",
     "link": "#",
-    "kind": "article"
+    "kind": "article",
+    "theme": "negligence",
+    "themesAll": [
+      "various",
+      "moral-cognition"
+    ]
   },
   {
     "title": "Reference fiction, and omission",
@@ -623,7 +724,12 @@
     ],
     "pdf": "#",
     "link": "#",
-    "kind": "article"
+    "kind": "article",
+    "theme": "various",
+    "themesAll": [
+      "various",
+      "negligence"
+    ]
   },
   {
     "title": "Irena Backus. Leibniz: Protestant Theologian",
@@ -670,8 +776,13 @@
       "philosophy"
     ],
     "pdf": "#",
-    "link": "#",
-    "kind": "article"
+    "link": "https://www.jstor.org/stable/26001780",
+    "kind": "article",
+    "theme": "vigilance",
+    "themesAll": [
+      "vigilance",
+      "negligence"
+    ]
   },
   {
     "title": "Leibnizian Deliberation",
@@ -683,7 +794,12 @@
     ],
     "pdf": "#",
     "link": "#",
-    "kind": "article"
+    "kind": "article",
+    "theme": "history",
+    "themesAll": [
+      "history",
+      "free-will"
+    ]
   },
   {
     "title": "Randolph Clarke: Omissions: Responsibility, Agency, and Metaphysics",
@@ -707,7 +823,12 @@
     ],
     "pdf": "#",
     "link": "#",
-    "kind": "article"
+    "kind": "article",
+    "theme": "free-will",
+    "themesAll": [
+      "free-will",
+      "history"
+    ]
   },
   {
     "title": "An early theory of contingency in Leibniz",
@@ -718,8 +839,13 @@
       "philosophy"
     ],
     "pdf": "#",
-    "link": "#",
-    "kind": "article"
+    "link": "https://www.jstor.org/stable/44148501",
+    "kind": "article",
+    "theme": "history",
+    "themesAll": [
+      "history",
+      "free-will"
+    ]
   },
   {
     "title": "Book Review: Leibniz, God, and Necessity. By Michael V. Griffin",

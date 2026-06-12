@@ -20,44 +20,53 @@ description: "Philosophical work on agency, forgetting, self-regulation, and the
     <h1>Philosophy</h1>
   </section>
 
-  <p class="deck">Work on temporally-extended agency, the ethics and metaphysics of forgetting, self-regulation, and the dynamics of consciousness — and, more recently, the pedagogy of civil discourse. <span class="ph">[placeholder — replace with your own framing]</span></p>
+  <p class="deck">My research asks how creatures like us manage to act over time. A single capacity — vigilance — runs through most of it: the work of keeping track of ourselves across scattered episodes of thought and action, and of trusting ourselves enough to commit to plans at all. That core opens outward into the ethics of negligence and forgetting, the folk concept of free will, the dynamics of the wandering mind, the foundations of self-control, and the methodology of the sciences that study these things.</p>
 
   <div class="sect-label"><span class="sq"></span><h2>Research themes</h2><span class="rule"></span></div>
-  <div class="themes">
-    <div class="theme t-circ">
-      <span class="mk" aria-hidden="true"></span>
-      <h3>Agency over time</h3>
-      <p>How intentions reach across time to govern later action, and what that demands of a theory of self-control. <span class="ph">[placeholder]</span></p>
-    </div>
-    <div class="theme t-sq">
-      <span class="mk" aria-hidden="true"></span>
-      <h3>Forgetting &amp; omission</h3>
-      <p>When forgetting is action-like, and how responsibility attaches to what we fail to do or remember. <span class="ph">[placeholder]</span></p>
-    </div>
-    <div class="theme t-tri">
-      <span class="mk" aria-hidden="true"></span>
-      <h3>Consciousness</h3>
-      <p>The temporal structure and dynamics of conscious experience. <span class="ph">[placeholder]</span></p>
-    </div>
-    <div class="theme t-bar">
-      <span class="mk" aria-hidden="true"></span>
-      <h3>Civil discourse</h3>
-      <p>Pedagogy of disagreement, with the Dialogue, Inclusion, and Democracy lab. <span class="ph">[placeholder]</span></p>
-    </div>
+  <p class="theme-hint">Select a theme to filter the work below. <button type="button" id="theme-clear" class="theme-clear" hidden>Clear filter ✕</button></p>
+
+  <div class="themes themes-grid" id="theme-grid" role="group" aria-label="Filter publications by research theme">
+    {% for t in themes %}
+    <button type="button" class="theme theme-btn shape-{{ t.shape }}" data-theme="{{ t.id }}" aria-pressed="false">
+      <span class="theme-mk" aria-hidden="true">{% set shape = t.shape %}{% set cls = "" %}{% include "themeshape.njk" %}</span>
+      <h3>{{ t.label }}</h3>
+      <p>{{ t.blurb }}</p>
+      <span class="theme-count" data-count-for="{{ t.id }}"></span>
+    </button>
+    {% endfor %}
   </div>
 
-  <div class="sect-label"><span class="sq"></span><h2>Selected work</h2><span class="rule"></span></div>
-  <div class="pubs">
+  <div class="sect-label"><span class="sq"></span><h2>Publications</h2><span class="rule"></span></div>
+  <div class="pubs" id="pub-list">
     {% for p in papers | byArea("philosophy", false) %}
-    <div class="pub">
-      <div class="yr">{{ p.year | shortYear }}</div>
-      <div>
+    {% set th = none %}
+    {% for t in themes %}{% if t.id == p.theme %}{% set th = t %}{% endif %}{% endfor %}
+    <div class="pub" data-theme="{{ p.theme }}">
+      <div class="yr">{% if p.yearLabel %}<span class="yr-label">{{ p.yearLabel }}</span>{% else %}{{ p.year | shortYear }}{% endif %}</div>
+      <div class="pub-main">
         <div class="t">{{ p.title }}</div>
-        <div class="v">{{ p.authors }} — {{ p.venue }} ({{ p.year }})</div>
+        <div class="v">{{ p.authors }} — {{ p.venue }}{% if not p.yearLabel %} ({{ p.year }}){% endif %}</div>
+        {% if th %}
+        <div class="pub-theme">
+          <span class="pub-theme-mk" aria-hidden="true">{% set shape = th.shape %}{% set cls = "sm" %}{% include "themeshape.njk" %}</span>
+          <span class="pub-theme-lbl">{{ th.label }}</span>
+        </div>
+        {% endif %}
+        {% if connections[p.title] %}
+        <div class="pub-conn">
+          {% for c in connections[p.title] %}
+          <span class="conn-item"><span class="conn-rel">{{ c.label }}</span> <span class="conn-to">{{ c.to }}</span></span>
+          {% endfor %}
+        </div>
+        {% endif %}
       </div>
-      {% if p.pdf and p.pdf != "#" %}<a class="go" href="{{ p.pdf }}">PDF</a>{% endif %}
+      <div class="pub-actions">
+        {% if p.link and p.link != "#" %}<a class="go" href="{{ p.link }}">Article</a>{% endif %}
+        {% if p.pdf and p.pdf != "#" %}<a class="go go-ghost" href="{{ p.pdf }}">PDF</a>{% endif %}
+      </div>
     </div>
     {% endfor %}
+    <div class="pub-empty" id="pub-empty" hidden>No published work under this theme yet — newer work in this area is in progress.</div>
   </div>
 
   <div class="sect-label"><span class="sq"></span><h2>Book reviews</h2><span class="rule"></span></div>
@@ -65,11 +74,11 @@ description: "Philosophical work on agency, forgetting, self-regulation, and the
     {% for p in papers | onlyReviews %}
     <div class="pub">
       <div class="yr">{{ p.year | shortYear }}</div>
-      <div>
+      <div class="pub-main">
         <div class="t">{{ p.title }}</div>
         <div class="v">{{ p.venue }} ({{ p.year }})</div>
       </div>
-      {% if p.pdf and p.pdf != "#" %}<a class="go" href="{{ p.pdf }}">PDF</a>{% endif %}
+      <div class="pub-actions">{% if p.pdf and p.pdf != "#" %}<a class="go go-ghost" href="{{ p.pdf }}">PDF</a>{% endif %}</div>
     </div>
     {% endfor %}
   </div>
@@ -77,3 +86,55 @@ description: "Philosophical work on agency, forgetting, self-regulation, and the
   <p class="ph" style="margin:24px 2px 60px;">Email me for papers or drafts.</p>
 
 </div>
+
+<script>
+(function () {
+  var grid = document.getElementById('theme-grid');
+  if (!grid) return;
+  var btns = Array.prototype.slice.call(grid.querySelectorAll('.theme-btn'));
+  var pubs = Array.prototype.slice.call(document.querySelectorAll('#pub-list .pub'));
+  var clearBtn = document.getElementById('theme-clear');
+  var emptyMsg = document.getElementById('pub-empty');
+  var active = null;
+
+  // annotate each theme box with how many published papers it has
+  var counts = {};
+  pubs.forEach(function (el) {
+    var t = el.getAttribute('data-theme');
+    counts[t] = (counts[t] || 0) + 1;
+  });
+  btns.forEach(function (b) {
+    var id = b.getAttribute('data-theme');
+    var c = counts[id] || 0;
+    var badge = b.querySelector('.theme-count');
+    if (badge) badge.textContent = c ? (c + (c === 1 ? ' paper' : ' papers')) : 'in progress';
+    if (!c) b.classList.add('theme-empty');
+  });
+
+  function apply(theme) {
+    active = theme;
+    var anyVisible = false;
+    pubs.forEach(function (el) {
+      var show = !theme || el.getAttribute('data-theme') === theme;
+      el.hidden = !show;
+      if (show) anyVisible = true;
+    });
+    btns.forEach(function (b) {
+      var on = b.getAttribute('data-theme') === theme;
+      b.setAttribute('aria-pressed', on ? 'true' : 'false');
+      b.classList.toggle('is-active', on);
+      b.classList.toggle('is-dim', !!theme && !on);
+    });
+    clearBtn.hidden = !theme;
+    if (emptyMsg) emptyMsg.hidden = !(theme && !anyVisible);
+  }
+
+  btns.forEach(function (b) {
+    b.addEventListener('click', function () {
+      var id = b.getAttribute('data-theme');
+      apply(active === id ? null : id);
+    });
+  });
+  clearBtn.addEventListener('click', function () { apply(null); });
+})();
+</script>

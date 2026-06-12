@@ -45,10 +45,10 @@ description: "Empirical work on moral cognition, memory, and the control of acti
   <div class="pubs">
     {% for p in papers | byArea("psychology", false) %}
     <div class="pub">
-      <div class="yr">{{ p.year | shortYear }}</div>
+      <div class="yr">{% if p.yearLabel %}<span style="font-size:11px;letter-spacing:.5px;">{{ p.yearLabel }}</span>{% else %}{{ p.year | shortYear }}{% endif %}</div>
       <div>
         <div class="t">{{ p.title }}</div>
-        <div class="v">{{ p.authors }} — {{ p.venue }} ({{ p.year }})</div>
+        <div class="v">{{ p.authors }} — {{ p.venue }}{% if not p.yearLabel %} ({{ p.year }}){% endif %}</div>
       </div>
       {% if p.pdf and p.pdf != "#" %}<a class="go" href="{{ p.pdf }}">PDF</a>{% endif %}
     </div>

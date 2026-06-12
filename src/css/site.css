@@ -166,16 +166,44 @@ body[data-section="philosophy"]{--accent:#D62828;}
 .hero-sup .s-out{width:64px;height:64px;border:3px solid var(--ink);right:30%;top:54%;transform:rotate(-18deg);}
 .hero-sup .deck{margin:18px 2px 0;font-family:var(--serif);font-size:17px;line-height:1.6;color:#33322D;max-width:62ch;}
 
-.themes{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:8px;}
-.theme{border:1px solid var(--rule);border-radius:2px;padding:22px 22px 24px;background:var(--bg);transition:transform .2s,box-shadow .2s;}
-.theme:hover{transform:translateY(-3px);box-shadow:5px 5px 0 var(--ink);}
-.theme .mk{display:block;width:30px;height:30px;margin:0 0 18px;}
-.theme.t-circ .mk{border-radius:50%;background:var(--red);}
-.theme.t-sq .mk{background:var(--ink);}
-.theme.t-tri .mk{width:0;height:0;background:none;border-left:15px solid transparent;border-right:15px solid transparent;border-bottom:26px solid var(--slate);margin-bottom:22px;}
-.theme.t-bar .mk{width:34px;height:12px;margin-bottom:30px;background:var(--ochre);}
-.theme h3{font-size:18px;font-weight:500;letter-spacing:.3px;}
-.theme p{font-family:var(--serif);font-size:15px;line-height:1.6;color:#3A3A34;margin-top:8px;}
+/* ---- research-theme filter boxes (clickable) ---- */
+.theme-hint{font-family:var(--serif);font-size:14px;color:var(--muted);margin:2px 2px 14px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;}
+.theme-clear{font-family:var(--sans);font-size:12px;letter-spacing:.5px;text-transform:uppercase;border:2px solid var(--ink);background:var(--bg);color:var(--ink);padding:5px 11px;border-radius:2px;cursor:pointer;transition:background .15s,color .15s;}
+.theme-clear:hover,.theme-clear:focus-visible{background:var(--ink);color:var(--bg);outline:none;}
+
+.themes-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:8px;}
+.theme-btn{display:block;text-align:left;font:inherit;cursor:pointer;border:1px solid var(--rule);border-radius:2px;
+  padding:20px 20px 22px;background:var(--bg);transition:transform .18s,box-shadow .18s,opacity .18s,border-color .18s;position:relative;}
+.theme-btn:hover{transform:translateY(-3px);box-shadow:5px 5px 0 var(--ink);}
+.theme-btn:focus-visible{outline:none;box-shadow:0 0 0 3px var(--ochre);}
+.theme-btn .theme-mk{display:block;margin:0 0 14px;}
+.theme-btn .tshape{width:34px;height:34px;display:block;}
+.theme-btn h3{font-size:16px;font-weight:500;letter-spacing:.3px;line-height:1.25;}
+.theme-btn p{font-family:var(--serif);font-size:13.5px;line-height:1.55;color:#3A3A34;margin-top:7px;}
+.theme-count{display:inline-block;margin-top:11px;font-family:var(--sans);font-size:11px;letter-spacing:.6px;text-transform:uppercase;color:var(--muted);}
+.theme-btn.is-active{border-color:var(--ink);box-shadow:6px 6px 0 var(--ink);transform:translateY(-3px);background:#fff;}
+.theme-btn.is-dim{opacity:.45;}
+.theme-btn.theme-empty{border-style:dashed;}
+.theme-btn.theme-empty .theme-count{font-style:italic;}
+
+/* theme shape fills/strokes via CSS vars (mark on theme boxes + small badge on papers) */
+.tshape .fR{fill:var(--red);} .tshape .fK{fill:var(--ink);} .tshape .fS{fill:var(--slate);} .tshape .fO{fill:var(--ochre);}
+.tshape .sR{stroke:var(--red);fill:none;} .tshape .sK{stroke:var(--ink);fill:none;} .tshape .sS{stroke:var(--slate);fill:none;} .tshape .sO{stroke:var(--ochre);fill:none;}
+.tshape.sm{width:16px;height:16px;display:block;}
+
+/* ---- per-paper theme badge + connection lines ---- */
+.pub-main{min-width:0;}
+.pub-theme{display:inline-flex;align-items:center;gap:7px;margin-top:9px;}
+.pub-theme-mk{display:inline-flex;}
+.pub-theme-lbl{font-family:var(--sans);font-size:11px;letter-spacing:.5px;text-transform:uppercase;color:var(--slate);}
+.pub-conn{margin-top:8px;display:flex;flex-direction:column;gap:3px;}
+.conn-item{font-family:var(--serif);font-size:12.5px;color:var(--muted);line-height:1.4;}
+.conn-rel{font-style:italic;}
+.conn-to{color:#3A3A34;}
+.pub-actions{display:flex;flex-direction:column;gap:8px;align-self:center;}
+.go-ghost{opacity:.78;}
+.yr-label{font-size:11px;letter-spacing:.5px;}
+.pub-empty{font-family:var(--serif);font-style:italic;color:var(--muted);padding:22px 6px;}
 
 /* ===========================================================
    TEACHING — Mondrian
@@ -294,9 +322,11 @@ body[data-section="post"] .bar a.home{border-bottom:none;}
   .hero-bau .b-title,.hero-bau .b-circle,.hero-bau .b-strip{grid-column:1/13;grid-row:auto;}
   .hero-bau .b-title{min-height:160px;} .hero-bau .b-circle{min-height:170px;}
   .areas,.themes,.projects{grid-template-columns:1fr;}
+  .themes-grid{grid-template-columns:repeat(2,1fr);}
   .affil div{grid-column:1/13 !important;}
   .pub{grid-template-columns:44px 1fr;}
-  .pub .go{grid-column:2;justify-self:start;margin-top:8px;}
+  .pub .go{justify-self:start;}
+  .pub-actions{grid-column:2;flex-direction:row;margin-top:10px;}
   .hero-mond{grid-template-columns:repeat(4,1fr);}
   .hero-mond .m-name{grid-column:1/5;}
   .hero-mond .m-red,.hero-mond .m-white,.hero-mond .m-yellow,.hero-mond .m-blue{grid-column:1/5;}
@@ -309,4 +339,5 @@ body[data-section="post"] .bar a.home{border-bottom:none;}
   .blog-head h1{font-size:32px;}
   .post-link h2{font-size:21px;}
   .post-body{font-size:18px;}
+  .themes-grid{grid-template-columns:1fr;}
 }
