@@ -2,7 +2,7 @@
 pageTitle: Until it sleeps
 date: 2026-06-12
 tags:
-  - postResponsibility
+  - Responsibility
 ---
 Chuck is a self-made monster. He spent years hardening himself, on purpose, into someone who enjoys killing, and one afternoon he murders his neighbor George without a flicker of reservation. Beth is the sweetest person you could meet, until a team of neurobiologically sophisticated intruders performs a "personality swap" while she sleeps. She wakes with her memories intact and Chuck's values fully integrated, and that afternoon she kills George with the same untroubled resolve (the case comes from the indomitable Al Mele). Stipulate that Chuck and Beth are psychologically identical at the moment of the killing. Most of us say Chuck is responsible if anyone is, and hesitate about Beth. That hesitation is the wedge between two camps. Structuralists hold that responsibility is fixed by your psychological structure at the time of action: your values, cares, and responsiveness to reasons. Historicists hold that structure isn't enough; it also matters how the structure came about. Chris Cho takes the hard line in a new *[PPR](https://onlinelibrary.wiley.com/doi/10.1111/phpr.70123)* paper : Beth is responsible, full stop. The defense has two steps. First, deflation: the kind of manipulation that best serves the historicist leaves Beth's new values stable and propagated and an agent like that already has everything historicists wanted. Second, debunking: whatever intuition survives is an anchoring bias that fixates on pre-manipulation Beth, "without a normative justification."
 
