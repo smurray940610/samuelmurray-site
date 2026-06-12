@@ -61,7 +61,7 @@ description: "Philosophical work on agency, forgetting, self-regulation, and the
         {% endif %}
       </div>
       <div class="pub-actions">
-        {% if p.link and p.link != "#" %}<a class="go" href="{{ p.link }}">Article</a>{% endif %}
+        {% if p.link and p.link != "#" %}<a class="go" href="{{ p.link }}">{{ p.linkLabel or "Article" }}</a>{% endif %}
         {% if p.pdf and p.pdf != "#" %}<a class="go go-ghost" href="{{ p.pdf }}">PDF</a>{% endif %}
       </div>
     </div>
@@ -117,6 +117,7 @@ description: "Philosophical work on agency, forgetting, self-regulation, and the
     pubs.forEach(function (el) {
       var show = !theme || el.getAttribute('data-theme') === theme;
       el.hidden = !show;
+      el.classList.toggle('is-hidden', !show);
       if (show) anyVisible = true;
     });
     btns.forEach(function (b) {

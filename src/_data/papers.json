@@ -387,9 +387,10 @@
       "philosophy"
     ],
     "pdf": "#",
-    "link": "#",
+    "link": "https://www.bloomsbury.com/us/advances-in-experimental-philosophy-of-action-9781350266322/",
     "kind": "article",
-    "theme": "various"
+    "theme": "various",
+    "linkLabel": "Book"
   },
   {
     "title": "Not what I expected: Feeling of surprise differentially mediates effect of personal control on attributions of free will and responsibility",
@@ -401,7 +402,7 @@
       "psychology"
     ],
     "pdf": "#",
-    "link": "#",
+    "link": "https://link.springer.com/article/10.1007/s13164-023-00682-0",
     "kind": "article",
     "theme": "free-will",
     "themesAll": [
@@ -491,7 +492,7 @@
       "psychology"
     ],
     "pdf": "#",
-    "link": "#",
+    "link": "https://academic.oup.com/book/41427/chapter-abstract/352759693?redirectedFrom=fulltext&login=false",
     "kind": "article",
     "theme": "mind-sciences"
   },
@@ -529,7 +530,7 @@
       "psychology"
     ],
     "pdf": "#",
-    "link": "#",
+    "link": "https://brill.com/view/journals/jocc/21/1-2/article-p94_5.xml",
     "kind": "article",
     "theme": "free-will"
   },
@@ -542,7 +543,7 @@
       "philosophy"
     ],
     "pdf": "#",
-    "link": "#",
+    "link": "https://link.springer.com/article/10.1007/s11229-020-02721-0",
     "kind": "article",
     "theme": "self-control",
     "themesAll": [
@@ -573,7 +574,7 @@
       "psychology"
     ],
     "pdf": "#",
-    "link": "#",
+    "link": "https://www.sciencedirect.com/science/chapter/bookseries/abs/pii/S2589295921000023",
     "kind": "article",
     "theme": "mind-sciences",
     "themesAll": [
@@ -706,7 +707,7 @@
       "psychology"
     ],
     "pdf": "#",
-    "link": "#",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/31064444/",
     "kind": "article",
     "theme": "negligence",
     "themesAll": [
@@ -723,7 +724,7 @@
       "philosophy"
     ],
     "pdf": "#",
-    "link": "#",
+    "link": "https://www.jstor.org/stable/26748844",
     "kind": "article",
     "theme": "various",
     "themesAll": [
@@ -793,7 +794,7 @@
       "philosophy"
     ],
     "pdf": "#",
-    "link": "#",
+    "link": "https://www.pdcnet.org/pdc/bvdb.nsf/purchase26?openform&fp=qd&id=qd_2017_0007_0002_0120_0138",
     "kind": "article",
     "theme": "history",
     "themesAll": [
@@ -822,7 +823,7 @@
       "philosophy"
     ],
     "pdf": "#",
-    "link": "#",
+    "link": "https://www.tandfonline.com/doi/abs/10.1080/13869795.2016.1194450",
     "kind": "article",
     "theme": "free-will",
     "themesAll": [

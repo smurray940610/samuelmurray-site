@@ -137,6 +137,7 @@ body[data-section="psych"]{--bg:#F3EFE6;--accent:#D63A2E;}
 
 .pubs{margin-top:14px;border-top:3px solid var(--ink);}
 .pub{display:grid;grid-template-columns:54px 1fr auto;gap:18px;align-items:start;padding:18px 6px;border-bottom:2px solid rgba(26,26,26,.18);}
+.pub[hidden],.pub.is-hidden{display:none !important;}
 .pub .yr{font-size:22px;font-weight:500;color:#1E5BA8;}
 .pub .t{font-size:15px;font-weight:500;}
 .pub .v{font-family:var(--serif);font-style:italic;font-size:13px;color:var(--muted);margin-top:3px;}
