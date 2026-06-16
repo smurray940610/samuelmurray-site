@@ -1,0 +1,38 @@
+[
+  {
+    "id": "moral-cognition",
+    "label": "Moral cognition",
+    "shape": "cross",
+    "blurb": "How do people attribute blame and responsibility, and how do character and intentionality information shape those judgments?"
+  },
+  {
+    "id": "cross-cultural",
+    "label": "Cross-cultural moral psychology",
+    "shape": "diagonal-bar",
+    "blurb": "How do moral experiences and concepts vary across societies, and how can we build instruments that capture that variation?"
+  },
+  {
+    "id": "consciousness",
+    "label": "The dynamics of consciousness",
+    "shape": "wave",
+    "blurb": "What mind-wandering is, whether attention can drift on purpose, and how the stream of thought moves between focus, fixation, and free flight."
+  },
+  {
+    "id": "self-regulation",
+    "label": "Self-regulation, vigilance & cognitive control",
+    "shape": "circle",
+    "blurb": "The psychological and neurobiological basis of complex, temporally-extended action over time."
+  },
+  {
+    "id": "memory",
+    "label": "Memory & forgetting",
+    "shape": "half-disc",
+    "blurb": "The cognitive and neural basis of remembering, forgetting, and imagining alternatives, from prospective memory and episodic counterfactuals to how forgiveness reshapes the memory of being wronged."
+  },
+  {
+    "id": "political",
+    "label": "Political psychology",
+    "shape": "triangle",
+    "blurb": "Why do political opponents dislike each other so much, and how can we use the tools of the cognitive and social sciences to address this?"
+  }
+]

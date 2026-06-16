@@ -4,14 +4,14 @@ pageTitle: Psychology & Neuroscience
 crumb: Psychology & Neuroscience
 section: psych
 permalink: /psychology/
-description: "Empirical work on moral cognition, memory, and the control of action."
+description: "Experimental work on how people make moral judgments, regulate their thinking and acting, and understand where others are coming from."
 ---
 <div class="wrap">
 
   <section class="hero-bau" aria-label="Page heading">
     <div class="blk b-title">
       <h1>Psychology<br>&amp; Neuroscience</h1>
-      <div class="deck">Empirical work on moral cognition, memory, and the control of action.</div>
+      <div class="deck">Experimental work on how people make moral judgments, regulate their thinking and acting, and understand where others are coming from. Most projects pair conceptual analysis with original experiments, often across cultures, informed by insights from the philosophy of science.</div>
     </div>
     <div class="blk b-circle">
       <img class="lab-emblem" src="/assets/camp-logo.png" alt="CaMP Lab logo">
@@ -19,46 +19,148 @@ description: "Empirical work on moral cognition, memory, and the control of acti
     <div class="blk b-strip">
       <span class="tag">Methods</span>
       <span class="chip">Behavioral experiments</span>
-      <span class="chip">Cross-cultural</span>
-      <span class="chip">fMRI</span>
+      <span class="chip">Cross-cultural studies</span>
       <span class="chip">Computational modeling</span>
+      <span class="chip">Prototype analysis</span>
     </div>
   </section>
 
   <div class="sect-label"><span class="sq"></span><h2>Research areas</h2><span class="rule"></span></div>
-  <div class="areas">
-    <div class="area a1">
-      <div class="cap"><span class="geo"></span><h3>Moral cognition</h3></div>
-      <div class="body">How people attribute responsibility and blame, and how those judgments vary across cultures. <span class="ph">[placeholder — replace with your framing]</span></div>
-    </div>
-    <div class="area a2">
-      <div class="cap"><span class="geo"></span><h3>Memory &amp; forgetting</h3></div>
-      <div class="body">The cognitive and neural basis of forgetting, intention, and prospective memory. <span class="ph">[placeholder]</span></div>
-    </div>
-    <div class="area a3">
-      <div class="cap"><span class="geo"></span><h3>Self-regulation</h3></div>
-      <div class="body">Temporally-extended control of action and the dynamics of attention over time. <span class="ph">[placeholder]</span></div>
-    </div>
-  </div>
+  <p class="theme-hint">Select an area to filter the work below. <button type="button" id="area-clear" class="theme-clear" hidden>Clear filter ✕</button></p>
 
-  <div class="sect-label"><span class="sq"></span><h2>Selected work</h2><span class="rule"></span></div>
-  <div class="pubs">
-    {% for p in papers | byArea("psychology", false) %}
-    <div class="pub">
-      <div class="yr">{% if p.yearLabel %}<span style="font-size:11px;letter-spacing:.5px;">{{ p.yearLabel }}</span>{% else %}{{ p.year | shortYear }}{% endif %}</div>
-      <div>
-        <div class="t">{{ p.title }}</div>
-        <div class="v">{{ p.authors }} — {{ p.venue }}{% if not p.yearLabel %} ({{ p.year }}){% endif %}</div>
-      </div>
-      {% if p.pdf and p.pdf != "#" %}<a class="go" href="{{ p.pdf }}">PDF</a>{% endif %}
-    </div>
+  <div class="themes themes-grid" id="area-grid" role="group" aria-label="Filter publications by research area">
+    {% for a in psychAreas %}
+    <button type="button" class="theme theme-btn shape-{{ a.shape }}" data-theme="{{ a.id }}" aria-pressed="false">
+      <span class="theme-mk" aria-hidden="true">{% set shape = a.shape %}{% set cls = "" %}{% include "themeshape.njk" %}</span>
+      <h3>{{ a.label }}</h3>
+      <p>{{ a.blurb }}</p>
+      <span class="theme-count" data-count-for="{{ a.id }}"></span>
+    </button>
     {% endfor %}
   </div>
 
-  <section class="affil" aria-label="Affiliations">
-    <div class="af1"><div class="k">Department</div><div class="vv">Neuroscience Program, Providence College</div></div>
-    <div class="af2"><div class="k">Past</div><div class="vv">Imagination &amp; Modal Cognition Lab, Duke University</div></div>
-    <div class="af3"><div class="k">Collaboration</div><div class="vv">Universidad de los Andes, Bogotá</div></div>
+  <div class="sect-label"><span class="sq"></span><h2>Selected work</h2><span class="rule"></span></div>
+  <div class="pubs" id="pub-list">
+    {% for p in papers | byArea("psychology", false) %}
+    {% if p.psychArea %}
+    {% set ar = none %}
+    {% for a in psychAreas %}{% if a.id == p.psychArea %}{% set ar = a %}{% endif %}{% endfor %}
+    <div class="pub" data-theme="{{ p.psychArea }}">
+      <div class="yr">{% if p.yearLabel %}<span class="yr-label">{{ p.yearLabel }}</span>{% else %}{{ p.year | shortYear }}{% endif %}</div>
+      <div class="pub-main">
+        <div class="t">{{ p.title }}</div>
+        <div class="v">{{ p.authors }} — {{ p.venue }}{% if not p.yearLabel %} ({{ p.year }}){% endif %}</div>
+        {% if ar %}
+        <div class="pub-theme">
+          <span class="pub-theme-mk" aria-hidden="true">{% set shape = ar.shape %}{% set cls = "sm" %}{% include "themeshape.njk" %}</span>
+          <span class="pub-theme-lbl">{{ ar.label }}</span>
+        </div>
+        {% endif %}
+        {% if psychConnections[p.title] %}
+        <div class="pub-conn">
+          {% for c in psychConnections[p.title] %}
+          <span class="conn-item"><span class="conn-rel">{{ c.label }}</span> <span class="conn-to">{{ c.to }}</span></span>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+      <div class="pub-actions">
+        {% if p.link and p.link != "#" %}<a class="go" href="{{ p.link }}">{{ p.linkLabel or "Article" }}</a>{% endif %}
+        {% if p.pdf and p.pdf != "#" %}<a class="go go-ghost" href="{{ p.pdf }}">PDF</a>{% endif %}
+      </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+    <div class="pub-empty" id="pub-empty" hidden>No work in this area yet.</div>
+  </div>
+
+  <section class="pcollab" aria-label="Affiliations and collaborators">
+    <div class="pcollab-dept">
+      <div class="pcollab-k">Department</div>
+      <div class="pcollab-dept-v">Neuroscience Program, Providence College</div>
+    </div>
+
+    <div class="pcollab-people">
+      <div class="pcollab-box pcollab-collab">
+        <div class="pcollab-k">Collaboration</div>
+        <ul class="pcollab-grid">
+          <li>Santiago Amaya <span>Rice</span></li>
+          <li>Juan Pablo Bermúdez <span>Southampton</span></li>
+          <li>Paulo Boggio <span>Mackenzie Presbyterian</span></li>
+          <li>Felipe De Brigard <span>Duke</span></li>
+          <li>Gino Carmona-Díaz <span>Universidad de los Andes, Bogotá</span></li>
+          <li>Elise Dykhuis <span>West Point</span></li>
+          <li>William Jiménez-Leal <span>Universidad de los Andes, Bogotá</span></li>
+          <li>Zac Irving <span>Virginia</span></li>
+          <li>Kristina Krasich <span>Elon</span></li>
+          <li>Thomas Nadelhoffer <span>College of Charleston</span></li>
+        </ul>
+      </div>
+
+      <div class="pcollab-box pcollab-past">
+        <div class="pcollab-k">Past</div>
+        <ul class="pcollab-list">
+          <li>Postdoc — Imagination &amp; Modal Cognition Lab <span>Duke</span></li>
+          <li>Postdoc — Moral Attitudes &amp; Decision-Making Lab <span>Duke</span></li>
+          <li>Postdoc — Facultad de Ciencias Sociales <span>Universidad de los Andes</span></li>
+          <li>Research assistant — Department of Neurobiology <span>Stanford</span></li>
+          <li>Research assistant — Princeton Neuroscience Institute <span>Princeton</span></li>
+        </ul>
+      </div>
+    </div>
   </section>
 
 </div>
+
+<script>
+(function () {
+  var grid = document.getElementById('area-grid');
+  if (!grid) return;
+  var btns = Array.prototype.slice.call(grid.querySelectorAll('.theme-btn'));
+  var pubs = Array.prototype.slice.call(document.querySelectorAll('#pub-list .pub'));
+  var clearBtn = document.getElementById('area-clear');
+  var emptyMsg = document.getElementById('pub-empty');
+  var active = null;
+
+  // annotate each area box with how many papers it has
+  var counts = {};
+  pubs.forEach(function (el) {
+    var t = el.getAttribute('data-theme');
+    counts[t] = (counts[t] || 0) + 1;
+  });
+  btns.forEach(function (b) {
+    var id = b.getAttribute('data-theme');
+    var c = counts[id] || 0;
+    var badge = b.querySelector('.theme-count');
+    if (badge) badge.textContent = c ? (c + (c === 1 ? ' paper' : ' papers')) : 'in progress';
+    if (!c) b.classList.add('theme-empty');
+  });
+
+  function apply(area) {
+    active = area;
+    var anyVisible = false;
+    pubs.forEach(function (el) {
+      var show = !area || el.getAttribute('data-theme') === area;
+      el.hidden = !show;
+      el.classList.toggle('is-hidden', !show);
+      if (show) anyVisible = true;
+    });
+    btns.forEach(function (b) {
+      var on = b.getAttribute('data-theme') === area;
+      b.setAttribute('aria-pressed', on ? 'true' : 'false');
+      b.classList.toggle('is-active', on);
+      b.classList.toggle('is-dim', !!area && !on);
+    });
+    clearBtn.hidden = !area;
+    if (emptyMsg) emptyMsg.hidden = !(area && !anyVisible);
+  }
+
+  btns.forEach(function (b) {
+    b.addEventListener('click', function () {
+      var id = b.getAttribute('data-theme');
+      apply(active === id ? null : id);
+    });
+  });
+  clearBtn.addEventListener('click', function () { apply(null); });
+})();
+</script>

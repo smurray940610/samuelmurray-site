@@ -108,12 +108,12 @@ img{max-width:100%;display:block;}
 body[data-section="psych"]{--bg:#F3EFE6;--accent:#D63A2E;}
 .bau-blue{background:#1E5BA8;} .bau-yellow{background:#F0C020;} .bau-red{background:#D63A2E;}
 
-.hero-bau{display:grid;gap:6px;margin:30px 0;grid-template-columns:repeat(12,1fr);grid-auto-rows:96px;
+.hero-bau{display:grid;gap:6px;margin:30px 0;grid-template-columns:repeat(12,1fr);grid-auto-rows:minmax(96px,auto);
   background:var(--ink);border:6px solid var(--ink);}
 .hero-bau .blk{position:relative;overflow:hidden;padding:18px 20px;display:flex;flex-direction:column;}
-.hero-bau .b-title{grid-column:1/8;grid-row:1/3;background:#1E5BA8;color:#fff;justify-content:center;}
+.hero-bau .b-title{grid-column:1/8;grid-row:1/3;background:#1E5BA8;color:#fff;justify-content:center;overflow:visible;}
 .hero-bau .b-title h1{font-size:clamp(26px,4vw,40px);font-weight:500;line-height:1.02;letter-spacing:.5px;}
-.hero-bau .b-title .deck{font-family:var(--serif);font-style:italic;font-size:15px;opacity:.92;margin-top:8px;max-width:32ch;}
+.hero-bau .b-title .deck{font-family:var(--serif);font-style:italic;font-size:15px;opacity:.92;margin-top:8px;max-width:42ch;}
 .hero-bau .b-circle{grid-column:8/13;grid-row:1/3;background:#F0C020;align-items:center;justify-content:center;padding:10px;}
 .hero-bau .lab-emblem{max-height:170px;max-width:90%;width:auto;height:auto;object-fit:contain;display:block;}
 .hero-bau .disc{width:118px;height:118px;border-radius:50%;background:var(--ink);color:#F0C020;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;}
@@ -341,4 +341,23 @@ body[data-section="post"] .bar a.home{border-bottom:none;}
   .post-link h2{font-size:21px;}
   .post-body{font-size:18px;}
   .themes-grid{grid-template-columns:1fr;}
+}
+
+/* ---- Psychology page: collaboration + past block (Bauhaus) ---- */
+.pcollab{margin:48px 0 40px;}
+.pcollab-k{font-family:var(--sans);font-size:10px;letter-spacing:1.5px;text-transform:uppercase;opacity:.85;margin-bottom:8px;}
+.pcollab-dept{background:#D63A2E;color:#fff;border:6px solid var(--ink);padding:16px 18px;}
+.pcollab-dept-v{font-family:var(--sans);font-weight:500;font-size:15px;}
+.pcollab-people{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-top:6px;}
+.pcollab-box{border:6px solid var(--ink);padding:16px 18px;}
+.pcollab-collab{background:var(--bg);}
+.pcollab-past{background:#1E5BA8;color:#fff;}
+.pcollab-past .pcollab-k{opacity:.9;}
+.pcollab-grid{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:4px 22px;}
+.pcollab-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px;}
+.pcollab-grid li,.pcollab-list li{font-family:var(--sans);font-size:13px;font-weight:500;line-height:1.35;}
+.pcollab-grid li span,.pcollab-list li span{display:block;font-family:var(--serif);font-style:italic;font-weight:400;font-size:12px;opacity:.78;}
+@media (max-width:720px){
+  .pcollab-people{grid-template-columns:1fr;}
+  .pcollab-grid{grid-template-columns:1fr;}
 }

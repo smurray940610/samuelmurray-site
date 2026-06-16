@@ -27,8 +27,9 @@
       "psychology"
     ],
     "pdf": "#",
-    "link": "#",
-    "kind": "article"
+    "link": "https://www.sciencedirect.com/science/article/abs/pii/S1053810026000048",
+    "kind": "article",
+    "psychArea": "self-regulation"
   },
   {
     "title": "Memories of forgiven wrongs: the role of interpersonal closeness and severity when remembering forgiven transgressions",
@@ -39,8 +40,9 @@
       "psychology"
     ],
     "pdf": "#",
-    "link": "#",
-    "kind": "article"
+    "link": "https://doi.org/10.1080/09658211.2026.2627194",
+    "kind": "article",
+    "psychArea": "memory"
   },
   {
     "title": "Varieties of negligence",
@@ -51,8 +53,9 @@
       "psychology"
     ],
     "pdf": "#",
-    "link": "#",
-    "kind": "article"
+    "link": "https://doi.org/10.1177/01461672261444067",
+    "kind": "article",
+    "psychArea": "moral-cognition"
   },
   {
     "title": "Validation of the Moral Foundation Vignettes in Latin America",
@@ -63,8 +66,9 @@
       "psychology"
     ],
     "pdf": "#",
-    "link": "#",
-    "kind": "article"
+    "link": "https://doi.org/10.1525/collabra.128178",
+    "kind": "article",
+    "psychArea": "cross-cultural"
   },
   {
     "title": "The emotional impact of forgiveness on autobiographical memories of past wrongdoings",
@@ -75,8 +79,9 @@
       "psychology"
     ],
     "pdf": "#",
-    "link": "#",
-    "kind": "article"
+    "link": "https://doi.org/10.1037/xge0001787",
+    "kind": "article",
+    "psychArea": "memory"
   },
   {
     "title": "Vigilance and mind wandering",
@@ -94,7 +99,8 @@
     "themesAll": [
       "mind-wandering",
       "vigilance"
-    ]
+    ],
+    "psychArea": "consciousness"
   },
   {
     "title": "What are the benefits of mind wandering to creativity?",
@@ -105,8 +111,9 @@
       "psychology"
     ],
     "pdf": "#",
-    "link": "#",
-    "kind": "article"
+    "link": "https://doi.org/10.1037/aca0000420",
+    "kind": "article",
+    "psychArea": "consciousness"
   },
   {
     "title": "Do people understand determinism? The tracking problem for measuring free will beliefs",
@@ -165,8 +172,9 @@
       "psychology"
     ],
     "pdf": "#",
-    "link": "#",
-    "kind": "article"
+    "link": "https://doi.org/10.1177/19485506241233708",
+    "kind": "article",
+    "psychArea": "moral-cognition"
   },
   {
     "title": "A Cross-Cultural Study of Everyday Moral Experiences",
@@ -177,8 +185,9 @@
       "psychology"
     ],
     "pdf": "#",
-    "link": "#",
-    "kind": "article"
+    "link": "https://osf.io/preprints/psyarxiv/jktnv_v1",
+    "kind": "article",
+    "psychArea": "cross-cultural"
   },
   {
     "title": "Loyalty from a personal point of view: A cross-cultural prototype study of loyalty",
@@ -189,8 +198,9 @@
       "psychology"
     ],
     "pdf": "#",
-    "link": "#",
-    "kind": "article"
+    "link": "https://psycnet.apa.org/fulltext/2025-37784-001.html",
+    "kind": "article",
+    "psychArea": "cross-cultural"
   },
   {
     "title": "The nature and norms of vigilance",
@@ -214,8 +224,9 @@
       "psychology"
     ],
     "pdf": "#",
-    "link": "#",
-    "kind": "article"
+    "link": "https://doi.org/10.1111/bjso.12680",
+    "kind": "article",
+    "psychArea": "moral-cognition"
   },
   {
     "title": "Commonsense Morality and the Bearable Automaticity of Being",
@@ -226,8 +237,9 @@
       "psychology"
     ],
     "pdf": "#",
-    "link": "#",
-    "kind": "article"
+    "link": "https://doi.org/10.1016/j.concog.2024.103748",
+    "kind": "article",
+    "psychArea": "moral-cognition"
   },
   {
     "title": "The strategic allocation theory of vigilance",
@@ -238,8 +250,9 @@
       "psychology"
     ],
     "pdf": "#",
-    "link": "#",
-    "kind": "article"
+    "link": "https://doi.org/10.1002/wcs.1693",
+    "kind": "article",
+    "psychArea": "self-regulation"
   },
   {
     "title": "Believe in your self-control: Lay theories of self-control and their downstream effects",
@@ -250,8 +263,9 @@
       "psychology"
     ],
     "pdf": "#",
-    "link": "#",
-    "kind": "article"
+    "link": "https://doi.org/10.1016/j.copsyc.2024.101879",
+    "kind": "article",
+    "psychArea": "self-regulation"
   },
   {
     "title": "A computational modeling approach to investigating mind wandering-related adjustments to gaze behavior during scene viewing",
@@ -262,8 +276,9 @@
       "psychology"
     ],
     "pdf": "#",
-    "link": "#",
-    "kind": "article"
+    "link": "https://doi.org/10.1016/j.cognition.2023.105624",
+    "kind": "article",
+    "psychArea": "consciousness"
   },
   {
     "title": "The Catch-22 of Forgetfulness: Responsibility for Mental Mistakes",
@@ -294,7 +309,8 @@
     "pdf": "#",
     "link": "https://link.springer.com/article/10.1007/s10670-021-00465-y",
     "kind": "article",
-    "theme": "free-will"
+    "theme": "free-will",
+    "psychArea": "moral-cognition"
   },
   {
     "title": "What's inside is all that counts? The contours of everyday thinking about self-control",
@@ -312,7 +328,8 @@
     "themesAll": [
       "self-control",
       "moral-cognition"
-    ]
+    ],
+    "psychArea": "self-regulation"
   },
   {
     "title": "Purity is linked to cooperation but not necessarily through self-control",
@@ -341,8 +358,9 @@
       "psychology"
     ],
     "pdf": "#",
-    "link": "#",
-    "kind": "article"
+    "link": "https://doi.org/10.3758/s13423-023-02257-7",
+    "kind": "article",
+    "psychArea": "self-regulation"
   },
   {
     "title": "Bringing Self-control into the Future",
@@ -408,7 +426,8 @@
     "themesAll": [
       "free-will",
       "negligence"
-    ]
+    ],
+    "psychArea": "moral-cognition"
   },
   {
     "title": "Can the mind wander intentionally?",
@@ -437,8 +456,9 @@
       "psychology"
     ],
     "pdf": "#",
-    "link": "#",
-    "kind": "article"
+    "link": "https://doi.org/10.1037/xhp0001012",
+    "kind": "article",
+    "psychArea": "consciousness"
   },
   {
     "title": "The scientific study of passive thinking: Methods of mind wandering research",
@@ -479,8 +499,9 @@
       "psychology"
     ],
     "pdf": "#",
-    "link": "#",
-    "kind": "article"
+    "link": "https://doi.org/10.1037/xge0001262",
+    "kind": "article",
+    "psychArea": "moral-cognition"
   },
   {
     "title": "Times imagined and remembered",
@@ -505,8 +526,9 @@
       "psychology"
     ],
     "pdf": "#",
-    "link": "#",
-    "kind": "article"
+    "link": "https://royalsocietypublishing.org/doi/10.1098/rstb.2021.0337",
+    "kind": "article",
+    "psychArea": "memory"
   },
   {
     "title": "Attention need not always apply: Mind wandering impedes explicit but not implicit sequence learning",
@@ -517,8 +539,9 @@
       "psychology"
     ],
     "pdf": "#",
-    "link": "#",
-    "kind": "article"
+    "link": "https://doi.org/10.1016/j.cognition.2020.104530",
+    "kind": "article",
+    "psychArea": "consciousness"
   },
   {
     "title": "Piercing the smoke screen: Dualism, free will, and Christianity",
@@ -532,7 +555,8 @@
     "pdf": "#",
     "link": "https://brill.com/view/journals/jocc/21/1-2/article-p94_5.xml",
     "kind": "article",
-    "theme": "free-will"
+    "theme": "free-will",
+    "psychArea": "moral-cognition"
   },
   {
     "title": "These confabulations are guaranteed to improve your marriage! Toward a teleological theory of confabulation",
@@ -561,8 +585,9 @@
       "psychology"
     ],
     "pdf": "#",
-    "link": "#",
-    "kind": "article"
+    "link": "https://doi.org/10.1037/xhp0000944",
+    "kind": "article",
+    "psychArea": "consciousness"
   },
   {
     "title": "The neurocognitive mechanisms of responsibility: a framework for normatively relevant neuroscience",
@@ -581,7 +606,8 @@
       "mind-sciences",
       "vigilance",
       "negligence"
-    ]
+    ],
+    "psychArea": "moral-cognition"
   },
   {
     "title": "The impact of error-consequence severity on cue processing in importance-biased prospective memory",
@@ -592,8 +618,9 @@
       "psychology"
     ],
     "pdf": "#",
-    "link": "#",
-    "kind": "article"
+    "link": "https://doi.org/10.1093/texcom/tgab056",
+    "kind": "article",
+    "psychArea": "memory"
   },
   {
     "title": "What's in a task? Complications in the study of the task-unrelated-thought variety of mind wandering",
@@ -604,8 +631,9 @@
       "psychology"
     ],
     "pdf": "#",
-    "link": "#",
-    "kind": "article"
+    "link": "https://doi.org/10.1177/1745691619897966",
+    "kind": "article",
+    "psychArea": "consciousness"
   },
   {
     "title": "I've said it before and I will say it again: Repeating statements made by Donald Trump increases perceived truthfulness",
@@ -616,8 +644,9 @@
       "psychology"
     ],
     "pdf": "#",
-    "link": "#",
-    "kind": "article"
+    "link": "https://osf.io/preprints/psyarxiv/9evzc_v1",
+    "kind": "article",
+    "psychArea": "political"
   },
   {
     "title": "The place of the trace: Negligence and responsibility",

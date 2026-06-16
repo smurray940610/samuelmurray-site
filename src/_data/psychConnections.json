@@ -1,0 +1,185 @@
+{
+  "Mental control and attributions of blame for negligent wrongdoing": [
+    {
+      "type": "empirical_complement",
+      "label": "Empirical complement to",
+      "to": "The place of the trace: Negligence and responsibility (philosophy)"
+    }
+  ],
+  "Varieties of negligence": [
+    {
+      "type": "builds_on",
+      "label": "Builds on",
+      "to": "Mental control and attributions of blame for negligent wrongdoing"
+    }
+  ],
+  "Blame for Hum(e)an beings: The role of character information in judgments of blame": [
+    {
+      "type": "extends",
+      "label": "Extends",
+      "to": "The Catch-22 of Forgetfulness: Responsibility for Mental Mistakes (philosophy)"
+    }
+  ],
+  "Commonsense Morality and the Bearable Automaticity of Being": [
+    {
+      "type": "companion",
+      "label": "Companion to",
+      "to": "Not what I expected: Feeling of surprise differentially mediates effect of personal control on attributions of free will and responsibility"
+    }
+  ],
+  "Not what I expected: Feeling of surprise differentially mediates effect of personal control on attributions of free will and responsibility": [
+    {
+      "type": "companion",
+      "label": "Companion to",
+      "to": "Intuitions about free will and the failure to comprehend determinism"
+    }
+  ],
+  "Intuitions about free will and the failure to comprehend determinism": [
+    {
+      "type": "inspired",
+      "label": "Inspired",
+      "to": "Do people understand determinism? The tracking problem for measuring free will beliefs (philosophy)"
+    }
+  ],
+  "Piercing the smoke screen: Dualism, free will, and Christianity": [
+    {
+      "type": "precursor",
+      "label": "Precursor to",
+      "to": "Intuitions about free will and the failure to comprehend determinism"
+    }
+  ],
+  "The neurocognitive mechanisms of responsibility: a framework for normatively relevant neuroscience": [
+    {
+      "type": "empirical_complement",
+      "label": "Empirical complement to",
+      "to": "Vigilance and Control (philosophy)"
+    }
+  ],
+  "Loyalty from a personal point of view: A cross-cultural prototype study of loyalty": [
+    {
+      "type": "precursor",
+      "label": "Precursor to",
+      "to": "Validation of the Moral Foundation Vignettes in Latin America"
+    }
+  ],
+  "Validation of the Moral Foundation Vignettes in Latin America": [
+    {
+      "type": "builds_on",
+      "label": "Builds on",
+      "to": "Loyalty from a personal point of view: A cross-cultural prototype study of loyalty"
+    }
+  ],
+  "Vigilance and mind wandering": [
+    {
+      "type": "builds_on",
+      "label": "Builds on",
+      "to": "Can the mind wander intentionally?"
+    }
+  ],
+  "What are the benefits of mind wandering to creativity?": [
+    {
+      "type": "precursor",
+      "label": "Precursor to",
+      "to": "Fixation, flexibility, and creativity: The dynamics of mind wandering"
+    }
+  ],
+  "Fixation, flexibility, and creativity: The dynamics of mind wandering": [
+    {
+      "type": "extends",
+      "label": "Extends",
+      "to": "What are the benefits of mind wandering to creativity?"
+    }
+  ],
+  "Attention need not always apply: Mind wandering impedes explicit but not implicit sequence learning": [
+    {
+      "type": "builds_on",
+      "label": "Builds on",
+      "to": "What's in a task? Complications in the study of the task-unrelated-thought variety of mind wandering"
+    }
+  ],
+  "Thought dynamics under task demands: Evaluating the influence of task difficulty on unconstrained thought": [
+    {
+      "type": "companion",
+      "label": "Companion to",
+      "to": "Fixation, flexibility, and creativity: The dynamics of mind wandering"
+    }
+  ],
+  "What's in a task? Complications in the study of the task-unrelated-thought variety of mind wandering": [
+    {
+      "type": "precursor",
+      "label": "Precursor to",
+      "to": "Vigilance and mind wandering"
+    }
+  ],
+  "Mental control and effort differ across different kinds of mental action": [
+    {
+      "type": "complement",
+      "label": "Complement to",
+      "to": "The strategic allocation theory of vigilance"
+    }
+  ],
+  "The strategic allocation theory of vigilance": [
+    {
+      "type": "empirical_complement",
+      "label": "Empirical complement to",
+      "to": "The nature and norms of vigilance (philosophy)"
+    },
+    {
+      "type": "empirical_complement",
+      "label": "Empirical complement to",
+      "to": "Vigilance (philosophy)"
+    }
+  ],
+  "Believe in your self-control: Lay theories of self-control and their downstream effects": [
+    {
+      "type": "synthesizes",
+      "label": "Synthesizes",
+      "to": "What's inside is all that counts? The contours of everyday thinking about self-control"
+    },
+    {
+      "type": "synthesizes",
+      "label": "Synthesizes",
+      "to": "Moralization and self-control strategy selection"
+    }
+  ],
+  "What's inside is all that counts? The contours of everyday thinking about self-control": [
+    {
+      "type": "inspired",
+      "label": "Inspired",
+      "to": "Moralization and self-control strategy selection"
+    }
+  ],
+  "Moralization and self-control strategy selection": [
+    {
+      "type": "builds_on",
+      "label": "Builds on",
+      "to": "What's inside is all that counts? The contours of everyday thinking about self-control"
+    }
+  ],
+  "Memories of forgiven wrongs: the role of interpersonal closeness and severity when remembering forgiven transgressions": [
+    {
+      "type": "follow_up",
+      "label": "Follow-up to",
+      "to": "The emotional impact of forgiveness on autobiographical memories of past wrongdoings"
+    }
+  ],
+  "Neural differences between internal and external episodic counterfactual thoughts": [
+    {
+      "type": "empirical_complement",
+      "label": "Empirical complement to",
+      "to": "Times imagined and remembered (philosophy)"
+    }
+  ],
+  "The impact of error-consequence severity on cue processing in importance-biased prospective memory": [
+    {
+      "type": "empirical_complement",
+      "label": "Empirical complement to",
+      "to": "Vigilance and Control (philosophy)"
+    },
+    {
+      "type": "empirical_complement",
+      "label": "Empirical complement to",
+      "to": "The neurocognitive mechanisms of responsibility: a framework for normatively relevant neuroscience"
+    }
+  ]
+}
