@@ -2,7 +2,7 @@
 pageTitle: "Setting the table: What Feynman's restaurant problem leaves out"
 date: 2026-06-10
 tags:
-  - post;Planning;Vigilance
+  - Planning;Vigilance
 ---
 In the late 1970s, Richard Feynman turned a lunch dilemma into a math problem: over a fixed number of meals, when should you stop trying new dishes and settle on the best one you've found? A new paper in *PNAS* by Brian Christian, Evan Russek, and Tom Griffiths deciphers Feynman's handwritten notes, proves his threshold solution optimal, extends it to other value distributions, and tests a restaurant version of the problem on 2,520 participants. People behave in a manner that is unusually consistent with Feynman's predictions: they use thresholds that fall linearly with the proportion of nights remaining, shift the intercept when the distribution of restaurant quality changes, and score nearly as well as the optimal policy. Impressive stuff. I'll be honest, I'm a huge fan of Evan and Tom's work and I really enjoyed reading this piece.
 
