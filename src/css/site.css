@@ -229,6 +229,10 @@ body[data-section="teaching"]{--bg:#F4F1EA;--accent:#B5532F;}
 .course .ti{font-size:16px;font-weight:500;}
 .course .meta{font-family:var(--serif);font-style:italic;font-size:13px;color:var(--muted);margin-top:2px;}
 .course .term{font-size:12px;letter-spacing:1px;text-transform:uppercase;color:var(--muted);}
+.course-link{color:inherit;text-decoration:none;transition:background-color .18s ease,transform .18s ease;}
+.course-link:hover{background:rgba(181,83,47,.08);transform:translateX(4px);}
+.course-link:focus-visible{outline:3px solid var(--accent);outline-offset:3px;background:rgba(181,83,47,.08);}
+.course-link .term{color:var(--accent);font-weight:500;}
 
 /* ===========================================================
    CaMP LAB — Russian Constructivist
