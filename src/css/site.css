@@ -233,6 +233,12 @@ body[data-section="teaching"]{--bg:#F4F1EA;--accent:#B5532F;}
 .course-link:hover{background:rgba(181,83,47,.08);transform:translateX(4px);}
 .course-link:focus-visible{outline:3px solid var(--accent);outline-offset:3px;background:rgba(181,83,47,.08);}
 .course-link .term{color:var(--accent);font-weight:500;}
+.syllabus-links{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:7px 12px;max-width:290px;}
+.syllabus-links a{color:var(--accent);font-size:12px;font-weight:500;letter-spacing:.35px;text-decoration:none;border-bottom:1px solid rgba(181,83,47,.45);padding-bottom:2px;white-space:nowrap;}
+.syllabus-links a:hover{border-bottom-color:var(--accent);}
+.syllabus-links a:focus-visible{outline:2px solid var(--accent);outline-offset:3px;}
+.other-teaching{font-family:var(--serif);font-size:14px;line-height:1.75;color:var(--muted);margin:24px 2px 60px;}
+.other-teaching span{font-family:var(--sans);font-size:11px;font-weight:500;letter-spacing:1.1px;text-transform:uppercase;color:var(--ink);margin-right:8px;}
 
 /* ===========================================================
    CaMP LAB — Russian Constructivist
@@ -339,6 +345,7 @@ body[data-section="post"] .bar a.home{border-bottom:none;}
   .funders{grid-template-columns:1fr 1fr;}
   .course{grid-template-columns:70px 1fr;}
   .course .term{grid-column:2;}
+  .syllabus-links{grid-column:2;justify-content:flex-start;max-width:none;}
 }
 @media (max-width:620px){
   .blog-head h1{font-size:32px;}

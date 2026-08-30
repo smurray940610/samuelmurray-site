@@ -32,19 +32,23 @@ description: "Courses taught by Samuel Murray at Providence College."
   </div>
 
   <div class="sect-label"><span class="sq"></span><h2>Selected syllabi</h2><span class="rule"></span></div>
-  <div class="courses">
+  <div class="courses syllabi-list">
     {% for c in courses %}
-    <a class="course course-link" href="{{ c.syllabus }}" target="_blank" rel="noopener">
+    <article class="course">
       <div class="code">{{ c.code }}</div>
       <div>
         <div class="ti">{{ c.title }}</div>
         <div class="meta">{{ c.meta }}</div>
       </div>
-      <div class="term">Syllabus · PDF ↗</div>
-    </a>
+      <div class="syllabus-links" aria-label="{{ c.title }} syllabi">
+        {% for syllabus in c.syllabi %}
+        <a href="{{ syllabus.url }}" target="_blank" rel="noopener">{{ syllabus.term }} <span aria-hidden="true">↗</span></a>
+        {% endfor %}
+      </div>
+    </article>
     {% endfor %}
   </div>
 
-  <p class="ph" style="margin:24px 2px 60px;">Representative syllabi from courses taught at Providence College.</p>
+  <p class="other-teaching"><span>Other teaching</span> Saint Louis University · University of Notre Dame · Westville Correctional Facility · Duke University · UNC–Chapel Hill · College Unbound</p>
 
 </div>
