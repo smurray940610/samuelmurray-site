@@ -1,32 +1,38 @@
 [
   {
-    "code": "PHL 101",
+    "code": "PHL 103",
     "title": "Introduction to Philosophy",
-    "meta": "Core curriculum — placeholder",
-    "term": "Fall"
+    "meta": "Spring 2024 · Mind, death, charity, evil, and cross-cultural philosophy",
+    "syllabus": "/assets/syllabi/phl103-introduction-to-philosophy-spring-2024.pdf"
   },
   {
-    "code": "PHL 210",
-    "title": "Ethics",
-    "meta": "Moral theory and applied questions — placeholder",
-    "term": "Spring"
+    "code": "PHL 202",
+    "title": "General Ethics",
+    "meta": "Spring 2025 · Moral life, political identity, and polarization",
+    "syllabus": "/assets/syllabi/phl202-general-ethics-spring-2025.pdf"
   },
   {
-    "code": "PHL 320",
-    "title": "Philosophy of Mind",
-    "meta": "Consciousness, agency, and cognition — placeholder",
-    "term": "Fall"
+    "code": "PHL / NEU 251",
+    "title": "Neuroethics",
+    "meta": "Fall 2025 · Ethical questions raised by neuroscience",
+    "syllabus": "/assets/syllabi/phl251-neuroethics-fall-2025.pdf"
   },
   {
-    "code": "NSC 250",
-    "title": "Cognitive Neuroscience",
-    "meta": "Cross-listed with Neuroscience — placeholder",
-    "term": "Spring"
+    "code": "PHL 318",
+    "title": "Philosophy of Neuroscience",
+    "meta": "Spring 2024 · Explanation, reduction, and representation in cognitive neuroscience",
+    "syllabus": "/assets/syllabi/phl318-philosophy-of-neuroscience-spring-2024.pdf"
   },
   {
-    "code": "PHL 480",
-    "title": "Seminar: Agency & Responsibility",
-    "meta": "Advanced seminar — placeholder",
-    "term": "Varies"
+    "code": "DWC 201",
+    "title": "Development of Western Civilization, 1789–Present",
+    "meta": "Fall 2023 · Modernity, knowledge, identity, and human connection",
+    "syllabus": "/assets/syllabi/dwc201-development-of-western-civilization-fall-2023.pdf"
+  },
+  {
+    "code": "DWC 202",
+    "title": "Polarization",
+    "meta": "Spring 2024 · Disagreement, freedom, equality, civility, and political division",
+    "syllabus": "/assets/syllabi/dwc202-polarization-spring-2024.pdf"
   }
 ]
