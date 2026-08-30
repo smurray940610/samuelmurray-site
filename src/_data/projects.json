@@ -1,26 +1,49 @@
-[
-  {
-    "title": "Placeholder funded project on moral cognition",
-    "blurb": "Short description of the project, its aims, and funder. Replace with real grant/project details.",
-    "years": "2023–2026",
-    "funder": "Funder name"
-  },
-  {
-    "title": "Placeholder project on memory and self-regulation",
-    "blurb": "Short description of the project and collaborators. Replace with real details.",
-    "years": "2022–2024",
-    "funder": "Funder name"
-  },
-  {
-    "title": "Placeholder cross-cultural collaboration",
-    "blurb": "Work with Universidad de los Andes. Replace with real details.",
-    "years": "2021–2023",
-    "funder": "Funder name"
-  },
-  {
-    "title": "Placeholder civil-discourse pedagogy initiative",
-    "blurb": "With the Dialogue, Inclusion, and Democracy lab. Replace with real details.",
-    "years": "2024–present",
-    "funder": "Internal"
-  }
-]
+{
+  "current": [
+    {
+      "title": "Developing Global Infrastructure to Study Political Polarization",
+      "blurb": "This project develops measures, scales, and research protocols for studying political polarization across Latin America, extending earlier work conducted in the United States and Brazil.",
+      "credit": "With Walter Sinnott-Armstrong and Paulo Boggio",
+      "years": "2026–2027",
+      "funder": "Templeton World Charity Foundation"
+    },
+    {
+      "title": "Connecting, Advancing, and Nurturing Moral Psychology",
+      "blurb": "This project supports a global scholarly community devoted to interdisciplinary moral psychology. It includes the International Society for Moral Psychology and a linked mentorship program for the next generation of moral psychologists.",
+      "credit": "With John Doris, Valerie Tiberius, Santiago Amaya, Laura Niemi, and Shaun Nichols",
+      "years": "2026–2027",
+      "funder": "Templeton World Charity Foundation"
+    }
+  ],
+  "past": [
+    {
+      "title": "Building Empathy for Depolarization in the United States and Brazil",
+      "blurb": "A cross-cultural study of conversational interventions designed to mitigate affective polarization. The project developed new methods for comparing polarization and depolarization across cultures.",
+      "credit": "With Walter Sinnott-Armstrong",
+      "years": "2024–2026",
+      "funder": "Templeton Religious Trust"
+    },
+    {
+      "title": "Global Moral Codes",
+      "blurb": "A global experience-sampling study of everyday moral experiences involving approximately 3,000 participants across 15 countries.",
+      "credit": "With William Jiménez-Leal and Santiago Amaya",
+      "years": "2023–2024",
+      "funder": "Psychological Science Accelerator"
+    },
+    {
+      "title": "Consciousness, Just in Time",
+      "blurb": "A project validating measures of dynamic modes of thought and studying transitions between modes of thinking in virtual-reality environments.",
+      "credit": "With Zac Irving and Caitlin Mills",
+      "years": "2022–2024",
+      "funder": "Templeton World Charity Foundation"
+    },
+    {
+      "title": "Moral Psychology off the Rails",
+      "blurb": "A project developing new measures and situations for studying moral judgment, with particular attention to non-Western and rural populations in Colombia.",
+      "credit": "Based at the Universidad de los Andes, Bogotá",
+      "years": "2021–2023",
+      "funder": "James S. McDonnell Foundation"
+    }
+  ],
+  "earlier": "Earlier projects examined vigilance and self-control, mind-wandering and prospective memory, moral responsibility for omissions, and the relationship between mind-wandering and creativity."
+}

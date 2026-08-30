@@ -1,13 +1,25 @@
 [
   {
-    "name": "James S. McDonnell Foundation",
-    "short": "McDonnell",
+    "name": "Templeton World Charity Foundation",
+    "short": "TWCF",
     "logo": "",
     "url": ""
   },
   {
-    "name": "Templeton World Charity Foundation",
-    "short": "TWCF",
+    "name": "Templeton Religious Trust",
+    "short": "TRT",
+    "logo": "",
+    "url": ""
+  },
+  {
+    "name": "Psychological Science Accelerator",
+    "short": "PSA",
+    "logo": "",
+    "url": ""
+  },
+  {
+    "name": "James S. McDonnell Foundation",
+    "short": "McDonnell",
     "logo": "",
     "url": ""
   },
@@ -18,8 +30,8 @@
     "url": ""
   },
   {
-    "name": "Florida State University",
-    "short": "FSU",
+    "name": "Charles Lafitte Foundation",
+    "short": "Lafitte",
     "logo": "",
     "url": ""
   }
