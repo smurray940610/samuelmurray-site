@@ -19,13 +19,15 @@ module.exports = function (eleventyConfig) {
   // Filter papers by area + (optionally) exclude reviews. Reliable replacement
   // for Nunjucks selectattr("areas","includes",...), which is flaky on arrays.
   eleventyConfig.addFilter("byArea", (papers, area, includeReviews) => {
-    return (papers || []).filter((p) => {
-      const inArea = Array.isArray(p.areas) && p.areas.indexOf(area) !== -1;
-      const isReview = p.kind === "review";
-      if (!inArea) return false;
-      if (!includeReviews && isReview) return false;
-      return true;
-    });
+    return (papers || [])
+      .filter((p) => {
+        const inArea = Array.isArray(p.areas) && p.areas.indexOf(area) !== -1;
+        const isReview = p.kind === "review";
+        if (!inArea) return false;
+        if (!includeReviews && isReview) return false;
+        return true;
+      })
+      .sort((a, b) => (b.year || 0) - (a.year || 0));
   });
 
   // Just the reviews (any area), for the dedicated reviews section.
