@@ -39,6 +39,7 @@ description: "The CaMP Lab — interdisciplinary research in cognition, morality
       <p>{{ pr.blurb }}</p>
       {% if pr.credit %}<p class="credit">{{ pr.credit }}</p>{% endif %}
       <div class="yrs">{{ pr.years }} · {{ pr.funder }}</div>
+      {% if pr.url %}<a class="project-link" href="{{ pr.url }}">{{ pr.linkLabel or "Visit project website" }} <span aria-hidden="true">&#8599;</span></a>{% endif %}
     </div>
     {% endfor %}
   </div>
