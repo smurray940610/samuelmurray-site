@@ -4,5 +4,17 @@
     "category": "Research",
     "description": "Research on political polarization across Latin America, developing measures and protocols for cross-cultural comparison.",
     "url": "https://polarization.samuelmurray.org/"
+  },
+  {
+    "title": "Neuroethics",
+    "category": "Teaching",
+    "description": "Readings, slides, handouts, and assignments for my course on the ethical questions raised by neuroscience.",
+    "url": "https://neuroethics.samuelmurray.org/"
+  },
+  {
+    "title": "International Society for Moral Psychology",
+    "category": "Scholarly community",
+    "description": "An international community supporting interdisciplinary moral psychology through conferences and a mentorship program.",
+    "url": "https://internationalsocietymoralpsychology.com/"
   }
 ]
