@@ -1,0 +1,28 @@
+---
+layout: layouts/interior.njk
+pageTitle: Web projects
+crumb: Web projects
+section: web-projects
+permalink: /web-projects/
+description: "Websites and tools built by Samuel Murray, including the LATAM Polarization project."
+---
+<main class="wrap-narrow">
+  <header class="web-projects-head">
+    <div class="web-projects-mark" aria-hidden="true"><span class="square"></span><span class="ring"></span></div>
+    <h1>Web projects</h1>
+    <p>A home for the websites and tools I build.</p>
+  </header>
+
+  <ul class="web-projects-list">
+    {% for project in webProjects %}
+    <li class="web-project-entry">
+      <article>
+        <p class="web-project-category">{{ project.category }}</p>
+        <h2>{{ project.title }}</h2>
+        <p class="web-project-description">{{ project.description }}</p>
+        <a class="web-project-visit" href="{{ project.url }}" aria-label="Visit {{ project.title }}">Visit project site <span aria-hidden="true">&#8599;</span></a>
+      </article>
+    </li>
+    {% endfor %}
+  </ul>
+</main>
